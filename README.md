@@ -31,13 +31,13 @@ cd tu-repositorio
 
 El aprendizaje está diseñado para ser progresivo. Los archivos más importantes son los tutoriales de cada clase. Debes seguirlos en orden:
 
-1.  **`clase-1-introduccion-uml.md`**: Aprenderás los conceptos básicos, a definir los requisitos de un sistema con Casos de Uso y tus primeros comandos de Git.
-2.  **`clase-2-diagramas-uml.md`**: Diseñarás la estructura interna del sistema con Diagramas de Clases y modelarás sus flujos con Diagramas de Secuencia y Actividad.
-3.  **`clase-3-principios-patrones-arquitecturas.md`**: Aprenderás a refinar tu diseño con principios profesionales, patrones y la arquitectura MVC para que tu software sea de alta calidad.
+1.  **[`clase-1-introduccion-uml.md`](./clase-1-introduccion-uml.md)**: Aprenderás los conceptos básicos, a definir los requisitos de un sistema con Casos de Uso y tus primeros comandos de Git.
+2.  **[`clase-2-diagramas-uml.md`](./clase-2-diagramas-uml.md)**: Diseñarás la estructura interna del sistema con Diagramas de Clases y modelarás sus flujos con Diagramas de Secuencia y Actividad.
+3.  **[`clase-3-principios-patrones-arquitecturas.md`](./clase-3-principios-patrones-arquitecturas.md)**: Aprenderás a refinar tu diseño con principios profesionales, patrones y la arquitectura MVC para que tu software sea de alta calidad.
 
 ### Paso 3: Consulta el Glosario
 
-¿Encuentras un término que no entiendes? ¡No hay problema! El archivo `glosario-desarrollo-software.md` es tu diccionario personal. Contiene explicaciones sencillas, analogías y ejemplos de todos los conceptos técnicos que veremos.
+¿Encuentras un término que no entiendes? ¡No hay problema! El archivo [`glosario-desarrollo-software.md`](./glosario-desarrollo-software.md) es tu diccionario personal. Contiene explicaciones sencillas, analogías y ejemplos de todos los conceptos técnicos que veremos.
 
 ### Paso 4: Explora el Historial (Para los Curiosos)
 
@@ -57,27 +57,27 @@ Esto te mostrará las ramas y cómo se fueron fusionando, permitiéndote entende
 
 **Documentos de Apoyo y Flujo de Trabajo:**
 
-*   `herramientas-esenciales.md`: **(Leer primero)** Guía de instalación y uso de Git, GitHub, diagrams.net y VS Code.
-*   `flujo-trabajo-colaborativo.md`: **(Muy importante)** Explica cómo usar Forks y Pull Requests, el método que usaremos para las entregas.
-*   `guia-uso-ia-aprender.md`: **(Recomendado)** Enseña cómo usar una IA como Gemini de forma efectiva y ética para potenciar tu aprendizaje.
-*   `fundamentos-arquitectura-software.md`: Lectura recomendada para entender los conceptos de alto nivel detrás de nuestras decisiones de diseño.
-*   `glosario-desarrollo-software.md`: Tu diccionario de consulta para todos los términos técnicos.
+*   [`herramientas-esenciales.md`](./herramientas-esenciales.md): **(Leer primero)** Guía de instalación y uso de Git, GitHub, diagrams.net y VS Code.
+*   [`flujo-trabajo-colaborativo.md`](./flujo-trabajo-colaborativo.md): **(Muy importante)** Explica cómo usar Forks y Pull Requests, el método que usaremos para las entregas.
+*   [`guia-uso-ia-aprender.md`](./guia-uso-ia-aprender.md): **(Recomendado)** Enseña cómo usar una IA como Gemini de forma efectiva y ética para potenciar tu aprendizaje.
+*   [`fundamentos-arquitectura-software.md`](./fundamentos-arquitectura-software.md): Lectura recomendada para entender los conceptos de alto nivel detrás de nuestras decisiones de diseño.
+*   [`glosario-desarrollo-software.md`](./glosario-desarrollo-software.md): Tu diccionario de consulta para todos los términos técnicos.
 
 **Documentos del Proyecto y Tarea:**
 
-*   `tarea-proyecto-final.md`: **(Importante)** Contiene las instrucciones detalladas de la tarea final del curso.
-*   `rubrica-evaluacion.md`: Describe cómo será evaluado tu trabajo.
-*   `LISTA_ESTUDIANTES.md`: Directorio con los enlaces a los repositorios de todos los compañeros para la revisión por pares.
+*   [`tarea-proyecto-final.md`](./tarea-proyecto-final.md): **(Importante)** Contiene las instrucciones detalladas de la tarea final del curso.
+*   [`rubrica-evaluacion.md`](./rubrica-evaluacion.md): Describe cómo será evaluado tu trabajo.
+*   [`LISTA_ESTUDIANTES.md`](./LISTA_ESTUDIANTES.md): Directorio con los enlaces a los repositorios de todos los compañeros para la revisión por pares.
 
 **Tutoriales del Proyecto:**
 
-*   `clase-1-introduccion-uml.md`: **(Empezar aquí)** Tutorial de la Clase 1.
-*   `clase-2-diagramas-uml.md`: Tutorial de la Clase 2.
-*   `clase-3-principios-patrones-arquitecturas.md`: Tutorial de la Clase 3.
+*   [`clase-1-introduccion-uml.md`](./clase-1-introduccion-uml.md): **(Empezar aquí)** Tutorial de la Clase 1.
+*   [`clase-2-diagramas-uml.md`](./clase-2-diagramas-uml.md): Tutorial de la Clase 2.
+*   [`clase-3-principios-patrones-arquitecturas.md`](./clase-3-principios-patrones-arquitecturas.md): Tutorial de la Clase 3.
 
 **Documentos del Curso:**
 
-*   `propuesta-pedagogica-modelado-software.md`: Documento con la estrategia pedagógica general del curso.
+*   [`propuesta-pedagogica-modelado-software.md`](./propuesta-pedagogica-modelado-software.md): Documento con la estrategia pedagógica general del curso.
 
 ---
 
