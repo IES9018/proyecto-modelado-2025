@@ -34,6 +34,8 @@ classDiagram
     Usuario "1" -- "*" Comentario : escribe
 ```
 
+> **Nota para el estudiante:** Puedes copiar el código de cualquier diagrama Mermaid y pegarlo en [mermaid.live](https://mermaid.live/) para visualizarlo y experimentar con él.
+
 ## 2. Evolución Detallada de los Diagramas
 
 Para ver los diagramas con mayor detalle y cómo evolucionan a lo largo del curso, consulta los siguientes archivos:
