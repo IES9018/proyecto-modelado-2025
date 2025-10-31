@@ -143,7 +143,7 @@ Modelemos el flujo del caso de uso **`Comentar Artículo`**.
 
 ```mermaid
 sequenceDiagram
-    actor Visitante
+    participant actor Visitante
     Visitante ->> ArticuloView: Escribe comentario y "Enviar"
     ArticuloView ->> ComentarioController: crearComentario(datos)
     create Comentario
@@ -167,14 +167,15 @@ Modelemos el proceso de **`Publicar Artículo`**, que tiene una decisión import
 
 ```mermaid
 graph TD
-    start -- "Autor rellena formulario" --> A[Presiona "Publicar"]
+    start --> Autor_rellena_formulario[Autor rellena formulario]
+    Autor_rellena_formulario --> A[Presiona Publicar]
     A --> B{¿Son válidos los datos?}
-    B -- "Sí" --> C[Guardar artículo en BD]
+    B -- Sí --> C[Guardar artículo en BD]
     C --> D[Mostrar mensaje de éxito]
-    D --> E((End))
-    B -- "No" --> F[Mostrar mensaje de error]
+    D --> E((Fin))
+    B -- No --> F[Mostrar mensaje de error]
     F --> G[Mostrar formulario con datos cargados]
-    G --> A
+    G --> Autor_rellena_formulario
 ```
 
 > **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
