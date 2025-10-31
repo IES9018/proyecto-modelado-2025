@@ -88,7 +88,17 @@ Por ahora, es así de simple. ¡Ya tenemos los requisitos funcionales básicos!
 
 **Resultado Esperado:**
 
-![Diagrama de Casos de Uso Simple](https://i.imgur.com/1tVzZ4a.png)
+```mermaid
+usecaseDiagram
+    actor Autor
+    actor Visitante
+
+    Autor --> (Publicar Artículo)
+    Visitante --> (Leer Artículo)
+```
+
+> **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
+
 
 **Paso 4: Describir un Caso de Uso**
 

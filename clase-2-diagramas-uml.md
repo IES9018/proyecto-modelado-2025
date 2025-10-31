@@ -93,9 +93,39 @@ Con la nueva funcionalidad de comentarios, nuestro diagrama crece. Ahora el `Vis
     *   Un `Usuario` (en rol de Visitante) escribe `*` (cero o muchos) `Comentario`s. Un `Comentario` es escrito por `1` solo `Usuario`.
 4.  **Dibujar el Diagrama en diagrams.net:**
 
-**Resultado Esperado:**
+**Resultado Esperado (Diagrama de Clases):**
 
-![Diagrama de Clases v1](https://i.imgur.com/5sJ5k2X.png)
+```mermaid
+classDiagram
+    class Usuario {
+        -id
+        -nombre
+        -email
+        -password
+        +login()
+        +logout()
+    }
+    class Articulo {
+        -id
+        -titulo
+        -contenido
+        -fechaPublicacion
+        +publicar()
+        +agregarComentario()
+    }
+    class Comentario {
+        -id
+        -texto
+        -fecha
+        -autor
+    }
+
+    Usuario "1" -- "1..*" Articulo : escribe
+    Articulo "1" -- "*" Comentario : tiene
+    Usuario "1" -- "*" Comentario : escribe
+```
+
+> **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
 
 **Paso 3: Modelar la Interacción con un Diagrama de Secuencia**
 
@@ -109,6 +139,21 @@ Modelemos el flujo del caso de uso **`Comentar Artículo`**.
     4.  El `:ComentarioController` le pide al objeto `:Comentario` que se guarde en la base de datos (`guardar()`).
     5.  El `:ComentarioController` le informa a la `:ArticuloView` que todo salió bien.
 
+**Resultado Esperado (Diagrama de Secuencia):**
+
+```mermaid
+sequenceDiagram
+    actor Visitante
+    Visitante ->> ArticuloView: Escribe comentario y "Enviar"
+    ArticuloView ->> ComentarioController: crearComentario(datos)
+    create Comentario
+    ComentarioController ->> Comentario: crear()
+    ComentarioController ->> Comentario: guardar()
+    ComentarioController -->> ArticuloView: Informe de éxito
+```
+
+> **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
+
 **Paso 4: Modelar un Proceso con un Diagrama de Actividad**
 
 Modelemos el proceso de **`Publicar Artículo`**, que tiene una decisión importante.
@@ -116,8 +161,23 @@ Modelemos el proceso de **`Publicar Artículo`**, que tiene una decisión import
 1.  **Flujo:** Inicia -> El `Autor` rellena el formulario -> Presiona "Publicar".
 2.  **Decisión:** El sistema verifica los datos. ¿Son válidos? (ej: ¿el título no está vacío?).
 3.  **Flujo SI:** Se guarda el artículo en la base de datos -> Se muestra un mensaje de éxito -> Fin.
-4.  **Flujo NO:** Se muestra un mensaje de error -> El flujo vuelve a mostrar el formulario con los datos ya cargados para que el `Autor` corrija -> Fin.
+    4.  **Flujo NO:** Se muestra un mensaje de error -> El flujo vuelve a mostrar el formulario con los datos ya cargados para que el `Autor` corrija -> Fin.
 
+**Resultado Esperado (Diagrama de Actividad):**
+
+```mermaid
+graph TD
+    start -- "Autor rellena formulario" --> A[Presiona "Publicar"]
+    A --> B{¿Son válidos los datos?}
+    B -- "Sí" --> C[Guardar artículo en BD]
+    C --> D[Mostrar mensaje de éxito]
+    D --> E((End))
+    B -- "No" --> F[Mostrar mensaje de error]
+    F --> G[Mostrar formulario con datos cargados]
+    G --> A
+```
+
+> **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
 ---
 
 ## 5. Control de Versiones con Git: Ramas para Experimentar

@@ -53,6 +53,8 @@ Esto te mostrará las ramas y cómo se fueron fusionando, permitiéndote entende
 
 ## Estructura de Archivos
 
+> **Nota sobre Diagramas:** Este repositorio utiliza [Mermaid](https://mermaid-js.github.io/mermaid/#/) para la creación de diagramas directamente en Markdown. Puedes copiar el código de cualquier diagrama Mermaid y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizarlo y experimentar con él.
+
 *   `README.md`: Esta guía que estás leyendo.
 
 **Documentos de Apoyo y Flujo de Trabajo:**
@@ -79,6 +81,10 @@ Esto te mostrará las ramas y cómo se fueron fusionando, permitiéndote entende
 **Documentos del Curso:**
 
 *   [`propuesta-pedagogica-modelado-software.md`](./propuesta-pedagogica-modelado-software.md): Documento con la estrategia pedagógica general del curso.
+
+**Diagramas del Sistema (Mermaid):**
+
+*   [`diagrama-sistema-completo.md`](./diagrama-sistema-completo.md): Visión general y evolutiva del sistema "Institución Digital" a través de diagramas Mermaid.
 
 ---
 
