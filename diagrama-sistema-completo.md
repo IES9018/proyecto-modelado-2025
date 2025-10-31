@@ -7,7 +7,7 @@
 
 Este documento presenta una visión general y evolutiva del sistema "Institución Digital" a través de diagramas Mermaid. A medida que avanzamos en las clases, el nivel de detalle y la complejidad de los diagramas aumentan.
 
-> **Nota para el estudiante:** Puedes copiar el código de cualquier diagrama Mermaid y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizarlo y experimentar con él.
+> **Nota para el estudiante:** Puedes copiar el código de cualquier diagrama Mermaid y pegarlo en [mermaid.live](https://mermaid.live/) para visualizarlo y experimentar con él.
 
 ## 1. Visión General del Sistema (Conceptual)
 
