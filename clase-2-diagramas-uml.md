@@ -146,7 +146,6 @@ sequenceDiagram
     participant Visitante
     Visitante ->> ArticuloView: Escribe comentario y "Enviar"
     ArticuloView ->> ComentarioController: crearComentario(datos)
-    create Comentario
     ComentarioController ->> Comentario: crear()
     ComentarioController ->> Comentario: guardar()
     ComentarioController -->> ArticuloView: Informe de éxito
