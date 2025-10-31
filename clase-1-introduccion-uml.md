@@ -89,12 +89,16 @@ Por ahora, es así de simple. ¡Ya tenemos los requisitos funcionales básicos!
 **Resultado Esperado:**
 
 ```mermaid
-usecaseDiagram
-    actor Autor
-    actor Visitante
+graph TD
+    subgraph Sistema
+        A[Autor]
+        V[Visitante]
+        UC1((Publicar Artículo))
+        UC2((Leer Artículo))
+    end
 
-    Autor --> (Publicar Artículo)
-    Visitante --> (Leer Artículo)
+    A --> UC1
+    V --> UC2
 ```
 
 > **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaidchart.com/raw](https://mermaidchart.com/raw) para visualizar el diagrama y experimentar con él.
