@@ -143,7 +143,7 @@ Modelemos el flujo del caso de uso **`Comentar Artículo`**.
 
 ```mermaid
 sequenceDiagram
-    participant actor Visitante
+    participant Visitante
     Visitante ->> ArticuloView: Escribe comentario y "Enviar"
     ArticuloView ->> ComentarioController: crearComentario(datos)
     create Comentario
