@@ -189,3 +189,15 @@ Para reforzar lo aprendido, te recomiendo estos videos:
 Hoy hemos definido **QUÉ** hará nuestro sistema desde la perspectiva del usuario. Hemos creado nuestro primer plano: el Diagrama de Casos de Uso.
 
 En la **Clase 2**, empezaremos a diseñar el **CÓMO**. Responderemos a la pregunta: ¿qué "piezas" de software (clases) necesitamos para construir estas funcionalidades? Pasaremos de la visión del usuario a la visión del arquitecto de software.
+
+---
+
+## ✏️ Aporte personal de Alex
+
+He comprendido que los **diagramas de casos de uso** son una forma visual de representar las funciones principales de un sistema desde el punto de vista del usuario.  
+El **Autor** y el **Visitante** son los actores clave del sistema de blog, y sus interacciones principales son **publicar** y **leer artículos**, respectivamente.
+
+```mermaid
+graph TD
+    A[Autor] -->|Publica| UC1((Artículo))
+    V[Visitante] -->|Lee| UC1
