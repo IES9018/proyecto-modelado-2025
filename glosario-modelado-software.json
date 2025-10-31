@@ -1,0 +1,48 @@
+{
+  "terminos": [
+    {
+      "termino": "Modelado de Software",
+      "definicion": "Proceso de crear abstracciones (modelos) de un sistema de software para comprenderlo, analizarlo, diseñarlo y documentarlo mejor antes de su construcción."
+    },
+    {
+      "termino": "UML (Lenguaje Unificado de Modelado)",
+      "definicion": "Lenguaje gráfico estandarizado para visualizar, especificar, construir y documentar los artefactos de un sistema de software."
+    },
+    {
+      "termino": "Diagrama de Casos de Uso",
+      "definicion": "Diagrama UML que describe la funcionalidad de un sistema desde el punto de vista del usuario, mostrando los actores y los casos de uso con los que interactúan."
+    },
+    {
+      "termino": "Diagrama de Clases",
+      "definicion": "Diagrama UML que describe la estructura estática de un sistema, mostrando las clases, sus atributos, métodos y las relaciones entre ellas."
+    },
+    {
+      "termino": "Diagrama de Secuencia",
+      "definicion": "Diagrama UML que muestra la interacción entre objetos en un escenario particular, ordenando los mensajes en una secuencia temporal."
+    },
+    {
+      "termino": "Diagrama de Actividad",
+      "definicion": "Diagrama UML que modela los flujos de trabajo de un sistema, mostrando el flujo de control de una actividad a otra."
+    },
+    {
+      "termino": "Cohesión",
+      "definicion": "Principio de diseño que indica que los elementos de un módulo (clase, componente) deben estar relacionados funcionalmente y tener una responsabilidad única y bien definida. Se busca alta cohesión."
+    },
+    {
+      "termino": "Acoplamiento",
+      "definicion": "Principio de diseño que mide el grado de interdependencia entre módulos. Un cambio en un módulo no debería requerir cambios en otros. Se busca bajo acoplamiento."
+    },
+    {
+      "termino": "Patrón de Diseño",
+      "definicion": "Solución general y reutilizable a un problema común en el diseño de software. No es un código final, sino una plantilla o descripción de cómo resolver un problema."
+    },
+    {
+      "termino": "Arquitectura de Software",
+      "definicion": "Estructura de alto nivel de un sistema de software, la disciplina de crear tales estructuras y la documentación de las mismas. Define los componentes principales y sus interacciones."
+    },
+    {
+      "termino": "MVC (Modelo-Vista-Controlador)",
+      "definicion": "Un patrón de arquitectura de software que separa la representación de la información de la interacción del usuario con ella. El Modelo gestiona los datos, la Vista los muestra y el Controlador gestiona la entrada del usuario."
+    }
+  ]
+}

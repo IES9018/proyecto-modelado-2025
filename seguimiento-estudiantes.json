@@ -1,0 +1,18 @@
+[
+  {
+    "nombre_apellido": "(Ejemplo) Ada Lovelace",
+    "github_usuario": "ada_lovelace",
+    "url_repositorio": "https://github.com/ada_lovelace/proyecto-modelado-software",
+    "estado_proyecto": "No Iniciado",
+    "feedback": "Pendiente de que el estudiante cree el repositorio y añada al profesor como colaborador.",
+    "calificacion": null
+  },
+  {
+    "nombre_apellido": "(Ejemplo) Grace Hopper",
+    "github_usuario": "grace_hopper",
+    "url_repositorio": "",
+    "estado_proyecto": "No Iniciado",
+    "feedback": "",
+    "calificacion": null
+  }
+]
