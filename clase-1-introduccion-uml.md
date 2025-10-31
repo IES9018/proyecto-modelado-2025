@@ -7,7 +7,7 @@
 
 ## 1. Objetivos de la Clase
 
-Al finalizar esta clase, tú y tus estudiantes serán capaces de:
+Al finalizar esta clase, serás capaz de:
 
 *   Entender la visión de nuestro proyecto: el CMS "Institución Digital".
 *   Explicar qué es el modelado de software y por qué es un paso crucial.
