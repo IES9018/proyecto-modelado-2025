@@ -59,6 +59,7 @@ Esto te mostrará las ramas y cómo se fueron fusionando, permitiéndote entende
 
 *   [`herramientas-esenciales.md`](./herramientas-esenciales.md): **(Leer primero)** Guía de instalación y uso de Git, GitHub, diagrams.net y VS Code.
 *   [`flujo-trabajo-colaborativo.md`](./flujo-trabajo-colaborativo.md): **(Muy importante)** Explica cómo usar Forks y Pull Requests, el método que usaremos para las entregas.
+*   [`CHANGELOG.md`](./CHANGELOG.md): Documenta todos los cambios significativos en el material del curso, ideal para entender la evolución del proyecto.
 *   [`guia-uso-ia-aprender.md`](./guia-uso-ia-aprender.md): **(Recomendado)** Enseña cómo usar una IA como Gemini de forma efectiva y ética para potenciar tu aprendizaje.
 *   [`fundamentos-arquitectura-software.md`](./fundamentos-arquitectura-software.md): Lectura recomendada para entender los conceptos de alto nivel detrás de nuestras decisiones de diseño.
 *   [`glosario-desarrollo-software.md`](./glosario-desarrollo-software.md): Tu diccionario de consulta para todos los términos técnicos.
