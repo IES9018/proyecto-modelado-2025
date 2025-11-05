@@ -153,11 +153,12 @@
         "revertido": true,
         "commit_revert": "6f8d902",
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/3#issuecomment-3488730775"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/3#issuecomment-3488730775",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/3#issuecomment-3492287956"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Cambio correcto para PowerShell; revertido por política educativa (no mergear)."
+          "observaciones": "Cambio correcto para PowerShell; revertido por política educativa. Además mergeó PR #2 de Camila sin autorización."
         }
       }
     ],
@@ -212,7 +213,7 @@
     "no_en_lista_estudiantes": true
   },
   {
-    "nombre": null,
+    "nombre": "Camila",
     "github_usuario": "Milasch23",
     "url_repositorio": "https://github.com/Milasch23/proyecto-modelado-2025",
     "estado_proyecto": "En curso",
@@ -223,9 +224,12 @@
         "numero": 2,
         "titulo": "Agrego Paso 4 - Descripción de Caso de Uso Visitante",
         "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/2",
-        "estado": "MERGED",
+        "estado": "OPEN",
         "creado_en": "2025-11-05T00:36:48Z",
-        "mergeado_en": null,
+        "mergeado_en": "2025-11-05T01:03:21Z",
+        "mergeado_por": "Jesica1487",
+        "revertido": true,
+        "commit_revert": "79dba24",
         "archivos": [
           {
             "path": "clase-1-introduccion-uml.md",
@@ -235,15 +239,15 @@
           }
         ],
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/2#issuecomment-3488619482"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/2#issuecomment-3488619482",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/2#issuecomment-3492282788"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Bien encaminado; pendiente estandarizar encabezados/flujo si aplica."
+          "observaciones": "Bien encaminado; mergeado sin autorización por Jesica1487, revertido para mantener proceso educativo."
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z",
-    "no_en_lista_estudiantes": true
+    "ultima_actualizacion": "2025-11-05T16:20:00Z"
   }
 ]
