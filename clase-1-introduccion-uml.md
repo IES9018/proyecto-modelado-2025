@@ -189,3 +189,31 @@ Para reforzar lo aprendido, te recomiendo estos videos:
 Hoy hemos definido **QUÉ** hará nuestro sistema desde la perspectiva del usuario. Hemos creado nuestro primer plano: el Diagrama de Casos de Uso.
 
 En la **Clase 2**, empezaremos a diseñar el **CÓMO**. Responderemos a la pregunta: ¿qué "piezas" de software (clases) necesitamos para construir estas funcionalidades? Pasaremos de la visión del usuario a la visión del arquitecto de software.
+
+# *Descripción Caso de Uso - Visitante*
+
+**Nombre:** Leer Artículo
+**Actor principal:** Visitante
+
+**Descripción:**
+El visitante accede al sistema y puede visualizar los artículos publicados por los autores.
+
+**Flujo principal:**
+
+El visitante accede al sitio web.
+
+El sistema muestra una lista de artículos disponibles.
+
+El visitante selecciona un artículo.
+
+El sistema muestra el contenido completo del artículo.
+
+**Flujo alternativo:**
+
+Si el artículo no existe o fue eliminado, el sistema muestra un mensaje de “Artículo no disponible”.
+
+**Postcondiciones:**
+El visitante visualiza el artículo completo.
+
+**Precondiciones:**
+Debe existir al menos un artículo publicado en el sistema.
