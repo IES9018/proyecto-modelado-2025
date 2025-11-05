@@ -162,8 +162,7 @@ El modelado es parte de nuestro proyecto, y como todo proyecto, debemos guardar 
 1.  Crea una carpeta para el proyecto, ej: `institucion-digital`.
 2.  Dentro, guarda el diagrama que hiciste y este archivo `clase-1-introduccion-uml.md`.
 3.  Abre una terminal en esa carpeta y ejecuta:
-    ```powershell
-    # En PowerShell (Windows), ejecuta:
+    ```bash
     git init
     git add .
     git commit -m "Initial commit: Creación del Diagrama de Casos de Uso v1"
