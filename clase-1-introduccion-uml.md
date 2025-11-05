@@ -189,3 +189,41 @@ Para reforzar lo aprendido, te recomiendo estos videos:
 Hoy hemos definido **QUÉ** hará nuestro sistema desde la perspectiva del usuario. Hemos creado nuestro primer plano: el Diagrama de Casos de Uso.
 
 En la **Clase 2**, empezaremos a diseñar el **CÓMO**. Responderemos a la pregunta: ¿qué "piezas" de software (clases) necesitamos para construir estas funcionalidades? Pasaremos de la visión del usuario a la visión del arquitecto de software.
+
+
+
+
+
+### Análisis de la Imagen
+
+La imagen proporcionada es un diagrama de casos de uso (UML Use Case Diagram) que representa un sistema simple de gestión de artículos, posiblemente un blog o portal institucional. Muestra dos actores principales: **Autor** (representado por un ícono de persona) y **Visitante** (también representado por un ícono de persona). Los casos de uso incluyen **Publicar** (conectado al Autor y al objeto central **Artículo**), **Lectura** (conectado al Visitante y al **Artículo**), y el **Artículo** como entidad central que une ambos flujos. Las conexiones indican asociaciones: el Autor publica artículos, y el Visitante realiza lecturas de ellos. El diagrama es minimalista, con líneas de asociación direccionales que sugieren un flujo desde los actores hacia las acciones y el artículo resultante. No se muestran extensiones, inclusiones o generalizaciones complejas; es un modelo lineal enfocado en interacciones básicas.
+
+A continuación, describo los casos de uso principales inferidos del diagrama, utilizando el formato del ejemplo proporcionado. He adaptado el contenido para que sea coherente con el diagrama, asumiendo flujos típicos de un sistema de blog (creación/publicación por autor y lectura por visitante). Para el caso de **Lectura**, agrego que la palabra clave "leer" se utiliza como trigger o término principal en el sistema (por ejemplo, en búsquedas o comandos para invocar la acción de lectura).
+
+#### Caso de Uso: Publicar Artículo
+**Actor Principal:** Autor  
+**Resumen:** El Autor crea, edita y publica un nuevo artículo en el sistema de blog institucional, contribuyendo al repositorio de contenidos.  
+**Flujo Principal (el "camino feliz")**  
+1. El Autor inicia sesión en el sistema con sus credenciales.  
+2. El sistema presenta al Autor un formulario para crear un nuevo artículo (con campos para título, contenido, imágenes, etc.).  
+3. El Autor completa el formulario, realiza ediciones si es necesario, y presiona "Publicar".  
+4. El sistema valida los datos, guarda el artículo en la base de datos con estado "Publicado" y lo asocia al perfil del Autor.  
+5. El sistema muestra un mensaje de confirmación y redirige al Autor a la lista de sus artículos publicados.  
+
+**Flujos Alternativos (¿qué podría salir mal?)**  
+* **4a. Datos inválidos:** Si el título está vacío o el contenido excede el límite de caracteres, el sistema muestra un error específico y permite al Autor corregir sin perder el borrador.  
+* **3a. Guardado como borrador:** Si el Autor selecciona "Guardar como borrador" en lugar de "Publicar", el artículo se almacena con estado "Borrador" para edición posterior.
+
+#### Caso de Uso: Lectura de Artículo
+**Actor Principal:** Visitante  
+**Resumen:** El Visitante accede y lee un artículo publicado en el blog institucional, permitiendo la consulta de contenidos sin necesidad de autenticación. Nota: La palabra clave "leer" se toma como trigger principal en el sistema (por ejemplo, en barras de búsqueda o comandos para invocar directamente la visualización del artículo).  
+**Flujo Principal (el "camino feliz")**  
+1. El Visitante accede al sistema de blog sin iniciar sesión (acceso público).  
+2. El sistema presenta una lista de artículos disponibles o permite búsqueda por título o palabra clave (ej. "leer [título]").  
+3. El Visitante selecciona un artículo o ingresa la palabra clave "leer" seguida del identificador del artículo.  
+4. El sistema recupera el artículo de la base de datos y lo muestra en formato legible (con título, contenido, autor y fecha).  
+5. El sistema registra la lectura opcionalmente (para métricas) y permite al Visitante navegar a otros artículos relacionados.  
+
+**Flujos Alternativos (¿qué podría salir mal?)**  
+* **2a. Artículo no encontrado:** Si la búsqueda con "leer" no coincide con ningún artículo, el sistema muestra un mensaje de "Artículo no disponible" y sugiere artículos similares.  
+* **4a. Contenido restringido:** Si el artículo está marcado como "Borrador" o privado, el sistema redirige al Visitante a la página principal con un aviso de acceso denegado.
