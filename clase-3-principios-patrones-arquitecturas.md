@@ -192,3 +192,9 @@ Hoy hemos elevado nuestro diseño de "funciona" a "está bien hecho". Hemos apre
 4.  **Gestionamos todo el proceso** con un control de versiones profesional usando Git.
 
 Este conocimiento es la base fundamental sobre la que se construye cualquier proyecto de software de calidad. ¡Felicidades por completar este viaje!
+
+### Aporte de Alex
+
+Se añadió un diagrama visual del patrón MVC basado en el ejemplo de la clase.
+
+![Diagrama MVC](./img-diagrama-clase3/diagrama-mvc.png)
