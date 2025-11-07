@@ -194,19 +194,29 @@ En la **Clase 2**, empezaremos a diseñar el **CÓMO**. Responderemos a la pregu
 
 
 
-La imagen representa un diagrama de casos de uso UML de un sistema denominado Revista Digital, delimitado por un rectángulo que contiene dos casos de uso representados como óvalos: Publicar Artículo y Leer Artículo. Fuera del sistema, a la izquierda, se encuentran dos actores: Autor y Lector, representados mediante figuras humanas estilizadas (stickman). El actor Autor está conectado mediante una línea de asociación al caso de uso Publicar Artículo, indicando que es quien realiza la acción de redactar y publicar contenido en la plataforma. Por su parte, el actor Lector está conectado al caso de uso Leer Artículo, lo que significa que su función principal es acceder y visualizar los artículos publicados. En resumen, el diagrama modela de forma clara y conforme a la notación UML las interacciones básicas de un sistema de publicación digital, donde los autores generan contenido y los lectores lo consumen.
+La imagen representa un diagrama de casos de uso UML de un sistema denominado Institución Digital, delimitado por un rectángulo que contiene dos casos de uso representados como óvalos: Publicar Artículo y Leer Artículo. Fuera del sistema, a la izquierda, se encuentran dos actores: Autor y Visitante, representados mediante figuras humanas estilizadas (stickman). El actor Autor está conectado mediante una línea de asociación al caso de uso Publicar Artículo, indicando que es quien realiza la acción de redactar y publicar contenido en la plataforma. Por su parte, el actor Visitante está conectado al caso de uso Leer Artículo, lo que significa que su función principal es acceder y visualizar los artículos publicados. En resumen, el diagrama modela de forma clara y conforme a la notación UML las interacciones básicas de un sistema de publicación digital, donde los autores generan contenido y los lectores lo consumen.
 
-**Caso de Uso:** Leer Artículo  
-**Actor Principal:** Lector  
-**Resumen:** El Lector accede a la Revista Digital, busca o navega por los artículos publicados y visualiza el contenido completo de uno de ellos.  
+## Caso de Uso: Leer Artículo (Visitante)
 
-**Flujo Principal (el "camino feliz")**  
-1. El Lector accede a la página principal de la Revista Digital.  
-2. El sistema muestra una lista de artículos publicados (con título, autor, fecha y extracto).  
-3. El Lector selecciona un artículo haciendo clic en su título.  
+**Precondiciones:**  
+El sistema “Institución Digital” debe tener al menos un artículo publicado y estar accesible desde la web.
+
+**Actores Involucrados:**  
+Visitante (actor principal).
+
+**Descripción Breve:**  
+El Visitante accede a la Institución Digital, navega entre los artículos publicados y visualiza el contenido completo de uno de ellos.
+
+**Flujo Principal (camino feliz):**  
+1. El Visitante accede a la página principal del sistema.  
+2. El sistema muestra una lista de artículos publicados (con título, autor, fecha y resumen).  
+3. El Visitante selecciona un artículo haciendo clic en su título.  
 4. El sistema carga y muestra el contenido completo del artículo (título, cuerpo, imágenes, autor, fecha de publicación).  
-5. El Lector lee el artículo y, al finalizar, puede volver a la lista o navegar a otro artículo.  
+5. El Visitante lee el artículo y, al finalizar, puede volver a la lista o navegar a otro artículo.
 
-**Flujos Alternativos (¿qué podría salir mal?)**  
-* **2a. No hay artículos publicados:** El sistema muestra un mensaje "No hay artículos disponibles en este momento" y sugiere volver más tarde.  
-* **4a. Artículo no encontrado o eliminado:** Si el enlace es inválido o el artículo fue borrado, el sistema muestra un error 404 con el mensaje "El artículo solicitado no existe" y ofrece volver al inicio.
+**Flujos Alternativos:**  
+2a. No hay artículos publicados → El sistema muestra el mensaje “No hay artículos disponibles en este momento” y sugiere volver más tarde.  
+4a. Artículo no encontrado o eliminado → El sistema muestra un error 404 con el mensaje “El artículo solicitado no existe” y ofrece volver al inicio.
+
+**Postcondiciones:**  
+El Visitante ha accedido correctamente al contenido del artículo seleccionado o ha recibido un mensaje informativo si el contenido no estaba disponible.
