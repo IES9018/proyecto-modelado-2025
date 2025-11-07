@@ -191,6 +191,9 @@ Hoy hemos definido **QUÉ** hará nuestro sistema desde la perspectiva del usuar
 En la **Clase 2**, empezaremos a diseñar el **CÓMO**. Responderemos a la pregunta: ¿qué "piezas" de software (clases) necesitamos para construir estas funcionalidades? Pasaremos de la visión del usuario a la visión del arquitecto de software.
 
 
+
+
+
 La imagen representa un diagrama de casos de uso UML de un sistema denominado Revista Digital, delimitado por un rectángulo que contiene dos casos de uso representados como óvalos: Publicar Artículo y Leer Artículo. Fuera del sistema, a la izquierda, se encuentran dos actores: Autor y Lector, representados mediante figuras humanas estilizadas (stickman). El actor Autor está conectado mediante una línea de asociación al caso de uso Publicar Artículo, indicando que es quien realiza la acción de redactar y publicar contenido en la plataforma. Por su parte, el actor Lector está conectado al caso de uso Leer Artículo, lo que significa que su función principal es acceder y visualizar los artículos publicados. En resumen, el diagrama modela de forma clara y conforme a la notación UML las interacciones básicas de un sistema de publicación digital, donde los autores generan contenido y los lectores lo consumen.
 
 **Caso de Uso:** Leer Artículo  
