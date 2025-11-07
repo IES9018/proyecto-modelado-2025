@@ -1,18 +1,253 @@
 [
   {
-    "nombre_apellido": "(Ejemplo) Ada Lovelace",
-    "github_usuario": "ada_lovelace",
-    "url_repositorio": "https://github.com/ada_lovelace/proyecto-modelado-software",
-    "estado_proyecto": "No Iniciado",
-    "feedback": "Pendiente de que el estudiante cree el repositorio y añada al profesor como colaborador.",
-    "calificacion": null
+    "nombre": "Agustinagnz",
+    "github_usuario": "Agustinagnz",
+    "url_repositorio": "https://github.com/Agustinagnz/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
   },
   {
-    "nombre_apellido": "(Ejemplo) Grace Hopper",
-    "github_usuario": "grace_hopper",
-    "url_repositorio": "",
-    "estado_proyecto": "No Iniciado",
-    "feedback": "",
-    "calificacion": null
+    "nombre": "AlejandroPardo98",
+    "github_usuario": "AlejandroPardo98",
+    "url_repositorio": "https://github.com/AlejandroPardo98/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "AndyParada",
+    "github_usuario": "AndyParada",
+    "url_repositorio": "https://github.com/AndyParada/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "Anmonte",
+    "github_usuario": "Anmonte",
+    "url_repositorio": "https://github.com/Anmonte/proyecto-modelado-2025",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [
+      {
+        "numero": 4,
+        "titulo": "Descripcion del diagrama de caso de uso",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/4",
+        "estado": "OPEN",
+        "creado_en": "2025-11-05T01:29:32Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "clase-1-introduccion-uml.md",
+            "additions": 39,
+            "deletions": 1,
+            "binary": false
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/4#issuecomment-3488770361"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Descripción clara. Sugerido estandarizar encabezados, flujo numerado, evitar cortes de palabra y agregar newline final."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+  },
+  {
+    "nombre": "Chamaheleonn",
+    "github_usuario": "Chamaheleonn",
+    "url_repositorio": "https://github.com/Chamaheleonn/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "ClaudioMPerez",
+    "github_usuario": "ClaudioMPerez",
+    "url_repositorio": "https://github.com/ClaudioMPerez/proyecto-modelado-claudio-2025",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [
+      {
+        "numero": 5,
+        "titulo": "Carpeta de caso de uso",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/5",
+        "estado": "OPEN",
+        "creado_en": "2025-11-05T01:35:37Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "casos_de_uso/casos de uso autor y visitante.drawio.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3488769556"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Agregar fuente .drawio, README breve en carpeta, renombrar archivos sin espacios y referenciar desde Markdown."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+  },
+  {
+    "nombre": "Damian-Coria",
+    "github_usuario": "Damian-Coria",
+    "url_repositorio": "https://github.com/Damian-Coria/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "Eze",
+    "github_usuario": "Ezem700",
+    "url_repositorio": "https://github.com/Ezem700/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "Jesica1487",
+    "github_usuario": "Jesica1487",
+    "url_repositorio": "https://github.com/Jesica1487/proyecto-modelado-2025",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [
+      {
+        "numero": 3,
+        "titulo": "Initial commit: Creación del Diagrama de Casos de Uso v1",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/3",
+        "estado": "MERGED",
+        "creado_en": "2025-11-05T01:00:55Z",
+        "mergeado_en": "2025-11-05T01:01:10Z",
+        "archivos": [
+          {
+            "path": "clase-1-introduccion-uml.md",
+            "additions": 2,
+            "deletions": 1,
+            "binary": false
+          }
+        ],
+        "revertido": true,
+        "commit_revert": "6f8d902",
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/3#issuecomment-3488730775",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/3#issuecomment-3492287956"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Cambio correcto para PowerShell; revertido por política educativa. Además mergeó PR #2 de Camila sin autorización."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+  },
+  {
+    "nombre": "KrellLeonardo",
+    "github_usuario": "KrellLeonardo",
+    "url_repositorio": "https://github.com/KrellLeonardo/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+  },
+  {
+    "nombre": "Lautaro Lopez",
+    "github_usuario": "LL1121",
+    "url_repositorio": "https://github.com/LL1121/proyecto-modelado-2025",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+  },
+  {
+    "nombre": "VazAlexx",
+    "github_usuario": "VazAlexx",
+    "url_repositorio": "https://github.com/VazAlexx/proyecto-modelado-alex",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [
+      {
+        "numero": 1,
+        "titulo": "feat: agrego aporte personal y diagrama en clase 1",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/1",
+        "estado": "OPEN",
+        "creado_en": "2025-10-31T23:15:03Z",
+        "mergeado_en": null,
+        "archivos": [],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/1#issuecomment-3475261832"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Buen proceso: fork/PR correcto; se mantiene abierto como evidencia para evaluación."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-05T01:40:00Z",
+    "no_en_lista_estudiantes": true
+  },
+  {
+    "nombre": "Camila",
+    "github_usuario": "Milasch23",
+    "url_repositorio": "https://github.com/Milasch23/proyecto-modelado-2025",
+    "estado_proyecto": "En curso",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [
+      {
+        "numero": 2,
+        "titulo": "Agrego Paso 4 - Descripción de Caso de Uso Visitante",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/2",
+        "estado": "OPEN",
+        "creado_en": "2025-11-05T00:36:48Z",
+        "mergeado_en": "2025-11-05T01:03:21Z",
+        "mergeado_por": "Jesica1487",
+        "revertido": true,
+        "commit_revert": "79dba24",
+        "archivos": [
+          {
+            "path": "clase-1-introduccion-uml.md",
+            "additions": 29,
+            "deletions": 1,
+            "binary": false
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/2#issuecomment-3488619482",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/2#issuecomment-3492282788"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Bien encaminado; mergeado sin autorización por Jesica1487, revertido para mantener proceso educativo."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-05T16:20:00Z"
   }
 ]
