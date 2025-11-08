@@ -206,8 +206,93 @@
     "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
-    "prs": [],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+    "prs": [
+      {
+        "numero": 9,
+        "titulo": "Creación de los casos de uso del programa",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/9",
+        "estado": "OPEN",
+        "creado_en": "2025-11-07T23:17:20Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "CU01PublicarArticulo.md",
+            "additions": 15,
+            "deletions": 0
+          },
+          {
+            "path": "CU02LeerArticulo.md",
+            "additions": 26,
+            "deletions": 0
+          },
+          {
+            "path": "DiagramaUML.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clase 1: Casos de uso con flujos alternativos detallados. Requiere: separar CU02 (leer vs opinar/calificar), renombrar archivos (kebab-case), agregar .drawio, organizar en carpetas, newline."
+        }
+      },
+      {
+        "numero": 14,
+        "titulo": "Se añadieron diagramas de Clases, Secuencia y Actividad",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/14",
+        "estado": "OPEN",
+        "creado_en": "2025-11-08T00:13:11Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "CU01PublicarArticulo.md",
+            "additions": 15,
+            "deletions": 0
+          },
+          {
+            "path": "CU02LeerArticulo.md",
+            "additions": 26,
+            "deletions": 0
+          },
+          {
+            "path": "DiagramaUML.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaDeClases.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaDeSecuencia.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaDeActividad.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/14#issuecomment-3505460302"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clases 1 y 2: Duplica contenido de PR #9 más nuevos diagramas clase 2. Requiere: consolidar PRs (mantener uno, cerrar otro), aplicar todas correcciones de PR #9, agregar .drawio, organizar estructura. Buen progreso pero necesita ordenar workflow Git."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-08T00:13:11Z"
   },
   {
     "nombre": "VazAlexx",
