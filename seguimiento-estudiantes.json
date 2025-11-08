@@ -232,9 +232,62 @@
           "nota": null,
           "observaciones": "Buen proceso: fork/PR correcto; se mantiene abierto como evidencia para evaluación."
         }
+      },
+      {
+        "numero": 10,
+        "titulo": "agrego diagramas de clase, secuencia y actividad en clase 2",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/10",
+        "estado": "OPEN",
+        "creado_en": "2025-11-07T22:40:00Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "clase-2-diagramas-uml.md",
+            "additions": 22,
+            "deletions": 1
+          }
+        ],
+        "comentarios_docente": [],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clase 2: Diagramas de clases, secuencia y actividad. Incluye mención de Administrador. Pendiente: feedback programado, agregar archivos .drawio, ajustar nombres, documentación."
+        }
+      },
+      {
+        "numero": 13,
+        "titulo": "Agrego diagrama MVC y comentario en clase 3",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/13",
+        "estado": "OPEN",
+        "creado_en": "2025-11-07T23:58:00Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "clase-3-principios-patrones-arquitecturas.md",
+            "additions": 7,
+            "deletions": 1
+          },
+          {
+            "path": "img-diagrama-clase3/desktop.ini",
+            "additions": 2,
+            "deletions": 0
+          },
+          {
+            "path": "img-diagrama-clase3/diagrama-mvc.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/13#issuecomment-3505439143"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clase 3: Agrega diagrama MVC. Requiere: eliminar desktop.ini, agregar newline al final, incluir .drawio fuente, expandir documentación. Segundo PR activo, buen ritmo de trabajo."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z",
+    "ultima_actualizacion": "2025-11-07T23:58:00Z",
     "no_en_lista_estudiantes": true
   },
   {
