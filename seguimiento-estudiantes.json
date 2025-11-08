@@ -244,7 +244,7 @@
         "numero": 14,
         "titulo": "Se añadieron diagramas de Clases, Secuencia y Actividad",
         "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/14",
-        "estado": "OPEN",
+        "estado": "CLOSED",
         "creado_en": "2025-11-08T00:13:11Z",
         "mergeado_en": null,
         "archivos": [
@@ -288,7 +288,7 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Clases 1 y 2: Duplica contenido de PR #9 más nuevos diagramas clase 2. Requiere: consolidar PRs (mantener uno, cerrar otro), aplicar todas correcciones de PR #9, agregar .drawio, organizar estructura. Buen progreso pero necesita ordenar workflow Git."
+          "observaciones": "Clases 1 y 2: Duplicaba contenido de PR #9 más nuevos diagramas clase 2. PR cerrado por docente - se instruyó consolidar todo en PR #9 para mantener workflow Git ordenado."
         }
       }
     ],
