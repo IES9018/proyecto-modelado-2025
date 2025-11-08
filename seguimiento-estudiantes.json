@@ -90,22 +90,47 @@
         "mergeado_en": null,
         "archivos": [
           {
-            "path": "casos_de_uso/casos de uso autor y visitante.drawio.png",
+            "path": "imgs_claudio/casos_de_uso/casos de uso autor y visitante.drawio.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "imgs_claudio/clase 3/diagrama mvc.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "imgs_claudio/diagramas/diagrama de actividad.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "imgs_claudio/diagramas/diagrama de clases.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "imgs_claudio/diagramas/diagrama de secuencia.png",
             "additions": 0,
             "deletions": 0,
             "binary": true
           }
         ],
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3488769556"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3488769556",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3505424097"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Agregar fuente .drawio, README breve en carpeta, renombrar archivos sin espacios y referenciar desde Markdown."
+          "observaciones": "Actualización 2025-11-07: Claudio agregó diagramas de clases 1, 2 y 3 (casos de uso, diagramas UML, MVC). Requiere: renombrar archivos (kebab-case), incluir archivos .drawio fuente, crear documentación Markdown explicativa, reorganizar estructura, usar Conventional Commits. Trabajo completo pero necesita mejoras en formato y documentación."
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+    "ultima_actualizacion": "2025-11-07T23:45:38Z"
   },
   {
     "nombre": "Damian-Coria",
