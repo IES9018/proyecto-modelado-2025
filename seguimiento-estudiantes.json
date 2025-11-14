@@ -6,8 +6,33 @@
     "estado_proyecto": "Pendiente",
     "calificacion_final": null,
     "feedback_general": "",
-    "prs": [],
-    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+    "prs": [
+      {
+        "numero": 8,
+        "titulo": "Descripción de diagrama y caso de uso \"Leer Artículo\" (clase 1)",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/8",
+        "estado": "OPEN",
+        "creado_en": "2025-11-07T22:38:16Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": "README.md", "additions": 3, "deletions": 0 },
+          { "path": "casos_de_uso/casos-uso-institucion-digital-agustinagnz.drawio", "additions": 34, "deletions": 0 },
+          { "path": "casos_de_uso/casos-uso-institucion-digital-agustinagnz.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "clase-1-introduccion-uml.md", "additions": 32, "deletions": 1 },
+          { "path": "diagramas/diagrama_clase.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "diagramas/diagrama_flujo.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "diagramas/diagrama_flujos.png", "additions": 0, "deletions": 0, "binary": true }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/8#issuecomment-3505328441"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clase 1: Buen avance con descripción y caso de uso. Requiere mantener 'Institución Digital', plantilla de casos de uso, subir .drawio y referenciar PNG, ajustar formato y encabezados."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-08T21:18:06Z"
   },
   {
     "nombre": "AlejandroPardo98",
@@ -409,8 +434,24 @@
           "nota": null,
           "observaciones": "Bien encaminado; mergeado sin autorización por Jesica1487, revertido para mantener proceso educativo."
         }
+      },
+      {
+        "numero": 15,
+        "titulo": "Clase 2 Diagramas",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/15",
+        "estado": "OPEN",
+        "creado_en": "2025-11-08T00:20:14Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": "clase2Diagramas.md", "additions": 88, "deletions": 0 }
+        ],
+        "comentarios_docente": [],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Clase 2: Aporta contenido en un archivo nuevo. Requiere alinear nombre de archivo a kebab-case e integrar con 'clase-2-diagramas-uml.md', verificar estructura, agregar .drawio si incluye diagramas, y newline final."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T16:20:00Z"
+    "ultima_actualizacion": "2025-11-08T00:28:03Z"
   }
 ]
