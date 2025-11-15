@@ -166,3 +166,40 @@ Este nuevo flujo es más **seguro, claro y profesional**, ideal para implementar
 ![Diagramas](mermaid-diagram-2025-11-11-165629.png)
 
 > Estas notas ayudan a entender qué información entra y qué resultado produce cada caso de uso; son útiles para diseñar las interfaces y las operaciones backend.
+
+4. Manos a la Obra: Refactorizando "Institución Digital"
+Paso 1: Analizar y Refactorizar Nuestro Diagrama de Clases
+Tomemos nuestro Diagrama de Clases de la Clase 2(Cohesion, Acoplamiento)
+Paso 2: Aplicar Patrones de Diseño(Problema, Solución (Patrón, Facade))
+Paso 3: Organizar con Arquitectura MVC(Capa del Modelo, Capa de la Vista, Capa del Controlador)
+Resultado Esperado (Conceptual - Diagrama MVC)
+graph TD
+    start[Inicio] --> Verificar_autenticacion[¿Usuario autenticado?]
+    Verificar_autenticacion -- No --> Mostrar_mensaje_login[Mostrar mensaje: 'Inicia sesión para publicar']
+    Mostrar_mensaje_login --> Fin1((Fin))
+
+    Verificar_autenticacion -- Sí --> Autor_rellena_formulario[Autor rellena formulario]
+    Autor_rellena_formulario --> Presiona_publicar[Presiona botón 'Publicar']
+    Presiona_publicar --> Llamar_Fachada[SistemaBlog: publicarArticulo]
+
+    %% Fachada delega en el controlador
+    Llamar_Fachada --> C1[ArticuloController]
+    C1 --> Validar_datos{¿Datos válidos y completos?}
+
+    Validar_datos -- No --> Mostrar_error[Mostrar mensaje de error]
+    Mostrar_error --> Recargar_formulario[Recargar formulario con datos previos]
+    Recargar_formulario --> Autor_rellena_formulario
+
+    Validar_datos -- Sí --> Sanitizar_datos[Sanitizar entrada del usuario]
+    Sanitizar_datos --> Guardar_en_BD[Guardar artículo en base de datos]
+    Guardar_en_BD --> Verificar_guardado{¿Guardado exitoso?}
+
+    Verificar_guardado -- No --> Mostrar_error_guardado[Mostrar mensaje: 'Error al guardar']
+    Mostrar_error_guardado --> Fin2((Fin))
+
+    Verificar_guardado -- Sí --> Mostrar_exito[Mostrar mensaje: 'Artículo publicado con éxito']
+    Mostrar_exito --> Redireccionar[Redireccionar a vista del artículo]
+    Redireccionar --> Fin3((Fin))
+
+    ![Diagrama 4](mermaid-diagram-2025-11-14-232908.png)
+    ![Diagrama 4](mermaid-diagram-2025-11-14-225533.png)
