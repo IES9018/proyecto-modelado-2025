@@ -85,9 +85,36 @@
           "nota": null,
           "observaciones": "Descripción clara. Sugerido estandarizar encabezados, flujo numerado, evitar cortes de palabra y agregar newline final."
         }
+      },
+      {
+        "numero": 18,
+        "titulo": "Feature/comentarios",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/18",
+        "estado": "OPEN",
+        "creado_en": "2025-11-14T14:30:00Z",
+        "mergeado_en": null,
+        "archivos": [
+          {
+            "path": "clase-1-introduccion-uml.md",
+            "additions": 90,
+            "deletions": 0
+          },
+          {
+            "path": "diagramadeflujo.md",
+            "additions": 117,
+            "deletions": 0
+          }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/18#issuecomment-3535159224"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Se agregó contenido de la clase 1 y un diagrama de flujo en formato markdown. El formato y la estructura son correctos. Es recomendable adjuntar el archivo fuente del diagrama (.drawio) para facilitar revisiones."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+    "ultima_actualizacion": "2025-11-14T14:30:00Z"
   },
   {
     "nombre": "Chamaheleonn",
@@ -446,13 +473,34 @@
         "archivos": [
           { "path": "clase2Diagramas.md", "additions": 88, "deletions": 0 }
         ],
-        "comentarios_docente": [],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/15#issuecomment-3505627048"
+        ],
         "evaluacion": {
           "nota": null,
           "observaciones": "Clase 2: Aporta contenido en un archivo nuevo. Requiere alinear nombre de archivo a kebab-case e integrar con 'clase-2-diagramas-uml.md', verificar estructura, agregar .drawio si incluye diagramas, y newline final."
         }
+      },
+      {
+        "numero": 17,
+        "titulo": "Clases 2 y 3",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/17",
+        "estado": "OPEN",
+        "creado_en": "2025-11-14T14:00:00Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": "clase2Diagramas.md", "additions": 88, "deletions": 0 },
+          { "path": "clase3Actividad.md", "additions": 97, "deletions": 0 }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/17#issuecomment-3535159224"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Se agregaron diagramas en formato Mermaid y contenido de arquitectura en los archivos de la clase 2 y 3. El formato markdown está correcto y los diagramas son claros. Recuerda adjuntar también los archivos fuente (.drawio) de los diagramas para facilitar futuras ediciones y revisiones. Sugerido consolidar con PR #15."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-08T00:28:03Z"
+    "ultima_actualizacion": "2025-11-14T14:00:00Z"
   }
 ]
