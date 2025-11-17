@@ -82,3 +82,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 - Deleted initial `.txt` files after migrating their content to structured Markdown.
+
+# Changelog - vane_legui-blog
+
+Todos los cambios notables en vane_legui-blog se documentan en este archivo.
+
+El formato está basado en [Keep a Changelog](https://keepachangelog.com/),
+y este proyecto adhiere a [Semantic Versioning](https://semver.org/).
+
+## [1.0.0] - 2025-11-15
+
+### Agregado
+- Fork inicial de proyecto-modelado-2025
+- Establecida identidad de vane_legui-blog
+- Documentación inicial en README
+- Sistema base: CRUD artículos + comentarios
+
+[1.0.0]: https://github.com/vane_legui-dev/vane_legui-blog/releases/tag/v1.0.0
