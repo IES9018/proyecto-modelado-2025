@@ -21,3 +21,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Lanzamiento Inicial de EzeBlog:** Creación del proyecto independiente a partir del *fork* de "Institución Digital".
 - **Versionado Semántico (SemVer):** Establecimiento del sistema de versiones MAJOR.MINOR.PATCH.
 - **Base de Modelado Completa:** Incluye los diagramas de UML (Clases, Secuencia, Actividad) y documentación de arquitectura (MVC, Cohesión/Acoplamiento) de las Clases 1 a 3.
+
+
+## [1.1.0] - 2025-11-18 (Por liberar)
+
+### Agregado
+- Sistema completo de categorías para artículos
+- [Tu lista de características del feature]
+- **Diagrama de clases para el sistema de categorías (clase-categoria.png)**
+
+### Cambiado
+- Mejorada interfaz de creación de artículos
+- Actualizado README con nueva funcionalidad
