@@ -149,10 +149,10 @@
   {
     "nombre": "ClaudioMPerez",
     "github_usuario": "ClaudioMPerez",
-    "url_repositorio": "https://github.com/ClaudioMPerez/proyecto-modelado-claudio-2025",
+    "url_repositorio": "https://github.com/ClaudioMPerez/blog-claudio",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "",
+    "feedback_general": "Fork renombrado a 'blog-claudio'. Feedback inicial en PR #5: https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3505424097 (2025-11-07). Actualización 2025-11-19: Excelente progreso técnico! Implementó v1.0.0 y v1.1.0 con sistema de etiquetas, usa Conventional Commits, trabaja con branches feature y PRs internos. Issues creadas para completar documentación académica de Clases 1-4: https://github.com/ClaudioMPerez/blog-claudio/issues (issues #6, #7, #8, #9).",
     "prs": [
       {
         "numero": 5,
@@ -195,15 +195,16 @@
         ],
         "comentarios_docente": [
           "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3488769556",
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3505424097"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3505424097",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/5#issuecomment-3550336589"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Actualización 2025-11-07: Claudio agregó diagramas de clases 1, 2 y 3 (casos de uso, diagramas UML, MVC). Requiere: renombrar archivos (kebab-case), incluir archivos .drawio fuente, crear documentación Markdown explicativa, reorganizar estructura, usar Conventional Commits. Trabajo completo pero necesita mejoras en formato y documentación."
+          "observaciones": "Actualización 2025-11-19: Claudio ha avanzado significativamente en su fork 'blog-claudio'. Implementó versionado semántico (v1.0.0 -> v1.1.0), sistema de etiquetas many-to-many, CHANGELOG actualizado, usa Conventional Commits correctamente (feat:, docs:), trabaja con branches feature y PRs internos en su fork (#3 mergeado con GPG signature). Último commit: 2025-11-19 01:51Z. Necesita: documentación formal de Clases 1-3, crear tags Git y releases en GitHub, pulir README como landing page. Issues creadas: #6, #7, #8, #9 en blog-claudio. Trabajo técnico excelente, falta solo documentación académica."
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-07T23:45:38Z"
+    "ultima_actualizacion": "2025-11-19T02:10:00Z"
   },
   {
     "nombre": "Damian-Coria",
