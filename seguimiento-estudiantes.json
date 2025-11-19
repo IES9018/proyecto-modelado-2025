@@ -347,7 +347,7 @@
     "url_repositorio": "https://github.com/LL1121/LautaroBlog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "Excelente progreso con identidad clara (LautaroBlog v1.0.0). 3 CU completos (incluyendo CU03 moderación único), 5 diagramas PNG, README/CHANGELOG/Roadmap personalizados, commits convencionales. Feedback detallado 2025-11-19: https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550364049. Pendientes críticos: archivos .drawio, organización carpetas, LICENSE, renombrar kebab-case. Issues fork: #1-6 abiertas.",
+    "feedback_general": "Excelente progreso con identidad clara (LautaroBlog v1.0.0). 3 CU completos (incluyendo CU03 moderación único), 5 diagramas PNG, README/CHANGELOG/Roadmap personalizados, commits convencionales. Feedback detallado 2025-11-19: https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550379803. Pendientes críticos: archivos .drawio, organización carpetas, LICENSE, renombrar kebab-case. Issues fork: #1-6 (Clases 1-4), #7 (Guía GitHub CLI): https://github.com/LL1121/LautaroBlog/issues/7.",
     "prs": [
       {
         "numero": 9,
@@ -416,15 +416,16 @@
         "comentarios_docente": [
           "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167",
           "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550105168",
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550364049",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550379803",
           "https://github.com/LL1121/LautaroBlog/issues/1",
           "https://github.com/LL1121/LautaroBlog/issues/4",
           "https://github.com/LL1121/LautaroBlog/issues/5",
-          "https://github.com/LL1121/LautaroBlog/issues/6"
+          "https://github.com/LL1121/LautaroBlog/issues/6",
+          "https://github.com/LL1121/LautaroBlog/issues/7"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "PR #9 (2025-11-19): Progreso excelente - 3 CU detallados (CU03 moderación único), 5 diagramas PNG, README/CHANGELOG personalizados, commits convencionales. Estado: Clase 1 80%, Clase 2 60% (faltan .drawio), Clase 3 90%, Clase 4 95% (falta LICENSE). Pendiente: .drawio, carpetas (casos_de_uso/, diagramas/), kebab-case, LICENSE, newlines. Último commit: 2025-11-19 01:54:46Z."
+          "observaciones": "PR #9 (2025-11-19): Progreso excelente - 3 CU detallados (CU03 moderación único), 5 diagramas PNG, README/CHANGELOG personalizados, commits convencionales. Estado: Clase 1 80%, Clase 2 60% (faltan .drawio), Clase 3 90%, Clase 4 95% (falta LICENSE). Pendiente: .drawio, carpetas (casos_de_uso/, diagramas/), kebab-case, LICENSE, newlines. Último commit: 2025-11-19 01:54:46Z. Issue #7 creada con guía completa GitHub CLI y workflow para cerrar Issues verificando checklist."
         }
       },
       {
@@ -479,7 +480,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-19T02:10:00Z"
+    "ultima_actualizacion": "2025-11-19T02:25:00Z"
   },
   {
     "nombre": "VazAlexx",
