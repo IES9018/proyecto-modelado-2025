@@ -275,7 +275,7 @@ classDiagram
 
 Este diagrama muestra cómo evitamos que los controladores creen directamente entidades → bajo acoplamiento.
 
-✅ DIAGRAMA 3: Arquitectura MVC (Paquetes)
+DIAGRAMA 3: Arquitectura MVC (Paquetes)
 🔹 Mermaid – Diagrama conceptual MVC
 flowchart LR
     subgraph Modelo
