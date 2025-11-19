@@ -1,84 +1,29 @@
-### 🏫 **Institución:** IES 9-018 "Gobernador Celso Jaque"
-### 📚 **Carrera:** Tecnicatura Superior en Desarrollo de Software
-### 📖 **Materia:** Modelado de Software
-### 👨‍🏫 **Profesor:** Paulo Alvarez
----
-# Changelog
+# Changelog - EzeBlog
 
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.1.0] - 2025-11-18
 
-### Added
-- Clase 4: Versionado Semántico, Tags, CHANGELOG y Fork Workflow
-- Checklist de evaluación comprehensivo para Clases 1-4
+### Added (Agregado)
+- **Sistema de Categorías Mejorado (Feature Único):**
+    - Se incluye el modelado completo (Diagrama de Clases, Secuencia y Actividad) para la entidad `Categoria`.
+    - Implementación de la relación Muchos a Muchos entre `Articulo` y `Categoria`.
+    - Agregado el panel de administración para la gestión completa de categorías.
+    - Filtro de artículos por categoría en la vista pública.
+- Se añaden diagramas que refuerzan la estructura MVC y la aplicación del patrón Facade.
+- **Diagrama de clases para el sistema de categorías (Clase4/diagrama-clase-categoria.png)**.
 
-## [1.3.0] - 2025-01-30
+### Changed (Cambiado)
+- Actualización de los Diagramas de Clases existentes para reflejar la relación con la nueva entidad `Categoria`.
+- El `README.md` se actualiza para documentar el lanzamiento v1.1.0.
+- Mejorada la interfaz de creación de artículos (UX).
 
-### Added
-- `clase-4-versionado-tags.md`: Tutorial completo sobre versionado semántico, Git tags, CHANGELOG.md y flujo fork→merge→PR
-- `checklist-evaluacion-clases.md`: Checklist de evaluación detallado con rúbrica para las 4 clases
-- Conceptos: Semantic Versioning (MAJOR.MINOR.PATCH), Tags anotados vs lightweight, Keep a Changelog format
-- Tutorial paso a paso: Sistema de categorías para el blog como nueva funcionalidad (v1.2.0)
-- Comandos Git avanzados: tags, remotes upstream, fetch, merge upstream
-- Flujo profesional: merge en fork personal antes de abrir PR al repo central
-- Explicación detallada de .gitignore con patrones comunes
-- Glosario de términos de versionado y releases
+## [1.0.0] - 2025-11-18
 
-### Changed
-- Actualización del CHANGELOG.md siguiendo el estándar Keep a Changelog
-
-## [1.2.0] - 2025-01-29
-
-### Added
-- GitHub Discussions habilitado como canal oficial de comunicación
-- Discussion #6: "Política del Repositorio: NO realizar merges por cuenta propia"
-- Discussion #7: "Retrospectiva semanal - Plantilla" para reflexión estudiantil
-- Configuración de merge strategy: squash-only, auto-delete branches
-- `seguimiento-estudiantes.json`: Sistema de tracking de estudiantes con campos de evaluación
-
-### Changed
-- Branch protection en main: require 1 approval, linear history, conversation resolution
-- Flujo de trabajo: los estudiantes deben esperar aprobación docente antes de merge
-
-### Fixed
-- Revertidos merges no autorizados de PR #2 y PR #3 como medida educativa
-- Formato markdown en `clase-2-diagramas-uml.md` (punto 4 - diagrama Mermaid)
-
-## [1.1.0] - 2025-01-28
-
-### Added
-- Revisiones educativas completas de PR #1 (VazAlexx), #2 (Milasch23), #3 (Jesica1487), #4 (Anmonte), #5 (ClaudioMPerez)
-- Feedback constructivo en cada PR con identificación de áreas de mejora
-
-### Changed
-- Enfoque pedagógico: de corrección directa a guía con feedback formativo
-
-## [1.0.0] - 2025-10-31
-
-### Added
-- Initial release of the complete course material for "Modelado de Software".
-- Creation of all pedagogical documents, including class tutorials, glossaries, and guides.
-- `clase-1-introduccion-uml.md`: Tutorial for Use Cases and basic Git.
-- `clase-2-diagramas-uml.md`: Tutorial for Class, Sequence, and Activity diagrams.
-- `clase-3-principios-patrones-arquitecturas.md`: Tutorial for design principles, patterns, and MVC.
-- `glosario-desarrollo-software.md`: Complete glossary of technical terms.
-- `herramientas-esenciales.md`: Setup guide for Git, GitHub, and other tools.
-- `fundamentos-arquitectura-software.md`: Document explaining high-level architecture concepts.
-- `flujo-trabajo-colaborativo.md`: Guide on using the Fork & Pull Request workflow.
-- `tarea-proyecto-final.md`: Final project instructions for students.
-- `rubrica-evaluacion.md`: Evaluation rubric for the final project.
-- `LISTA_ESTUDIANTES.md`: Pre-populated list of students for peer review.
-- `guia-uso-ia-aprender.md`: Guide for using AI as a learning tool.
-- `.gitignore`: Basic gitignore file for OS and editor-specific files.
-- Standardized headers with course information added to all Markdown files.
-
-### Changed
-- Refined project structure based on iterative feedback.
-- Switched from a collaborator-based workflow to a Fork & Pull Request model.
-
-### Removed
-- Deleted initial `.txt` files after migrating their content to structured Markdown.
+### Added (Agregado)
+- **Lanzamiento Inicial de EzeBlog:** Creación del proyecto independiente a partir del *fork* de "Institución Digital".
+- **Versionado Semántico (SemVer):** Establecimiento del sistema de versiones MAJOR.MINOR.PATCH.
+- **Base de Modelado Completa:** Incluye los diagramas de UML (Clases, Secuencia, Actividad) y documentación de arquitectura (MVC, Cohesión/Acoplamiento) de las Clases 1 a 3.
