@@ -1,6 +1,6 @@
 # Cómo Crear Pull Requests hacia IES9018/proyecto-modelado-2025
 
-Hola Agustín! 👋
+Hola Agustina! 👋
 
 Veo que ya tenés PRs abiertos (#8 y #25), pero te dejo una guía completa para asegurarte de que el proceso funcione correctamente.
 
@@ -60,7 +60,7 @@ Usá un formato claro:
 
 **Título**: `Clase X: Descripción breve - Tu Nombre`
 
-**Ejemplo**: `Clase 2: Diagramas UML - Agustín`
+**Ejemplo**: `Clase 2: Diagramas UML - Agustina`
 
 **Descripción**: Incluí:
 - Qué clase/contenido entregas

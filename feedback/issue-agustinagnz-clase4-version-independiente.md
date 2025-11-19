@@ -1,6 +1,6 @@
 # Clase 4: Tu Versión Independiente del Proyecto
 
-Hola Agustín! 👋
+Hola Agustina! 👋
 
 Ahora que tenés el contenido de las clases anteriores, es momento de crear **tu propia versión independiente** del proyecto con identidad única.
 
@@ -13,7 +13,7 @@ Transformar tu fork en un proyecto con nombre e identidad propia, preparado para
 ### 1. Definir la identidad del proyecto
 
 - [ ] **Elegir un nombre único** para tu proyecto (diferente a "Institución Digital")
-  - Ejemplo: "AgusBlog", "DigitalHub", "ContentHub-Agustin"
+  - Ejemplo: "AgusBlog", "DigitalHub", "ContentHub-Agustina"
   - Puede ser un juego de palabras, tu nombre + tema, etc.
 
 - [ ] **Definir tu propuesta de valor única**
