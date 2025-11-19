@@ -36,3 +36,16 @@ Todos nuestros lanzamientos están versionados con **Versionado Semántico (SemV
 * [`CHANGELOG.md`](./CHANGELOG.md): Historial de cambios, *features* y correcciones por versión.
 * [`LICENSE`](./LICENSE): Licencia de código abierto del proyecto.
 * [`diagrama-sistema-completo.md`](./diagrama-sistema-completo.md): Visión completa del modelo UML de EzeBlog.
+
+---
+
+## 🚀 Instalación y Uso de EzeBlog
+
+Para clonar el proyecto y empezar a explorar el modelo de EzeBlog:
+
+```bash
+# 1. Clona el repositorio
+git clone [https://github.com/Ezem700/proyecto-modelado-2025.git](https://github.com/Ezem700/proyecto-modelado-2025.git)
+
+# 2. Entra al directorio del proyecto (ajusta el nombre si lo renombraste)
+cd proyecto-modelado-2025
