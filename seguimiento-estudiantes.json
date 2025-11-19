@@ -3,9 +3,9 @@
     "nombre": "Agustinagnz",
     "github_usuario": "Agustinagnz",
     "url_repositorio": "https://github.com/Agustinagnz/proyecto-modelado-2025",
-    "estado_proyecto": "Pendiente",
+    "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "",
+    "feedback_general": "Instrucciones detalladas publicadas en PRs #8 y #25 (2025-11-18): guía para crear PRs correctamente y completar Clase 4 con versión independiente. Fork tiene Issues deshabilitados.",
     "prs": [
       {
         "numero": 8,
@@ -31,9 +31,23 @@
           "nota": null,
           "observaciones": "Clase 1: Buen avance con descripción y caso de uso. Requiere mantener 'Institución Digital', plantilla de casos de uso, subir .drawio y referenciar PNG, ajustar formato y encabezados."
         }
+      },
+      {
+        "numero": 25,
+        "titulo": "Comentarios",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/25",
+        "estado": "OPEN",
+        "creado_en": "2025-11-19T00:54:48Z",
+        "mergeado_en": null,
+        "archivos": [],
+        "comentarios_docente": [],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "PR nuevo creado desde rama 'comentarios'. Pendiente revisión de contenido."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-18T23:59:00Z"
+    "ultima_actualizacion": "2025-11-19T01:15:00Z"
   },
   {
     "nombre": "AlejandroPardo98",
@@ -61,7 +75,7 @@
     "url_repositorio": "https://github.com/Anmonte/vane_legui-blog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "Feedback consolidado publicado en Issue #1 del fork: https://github.com/Anmonte/vane_legui-blog/issues/1#issuecomment-3550063488 (2025-11-18)",
+    "feedback_general": "Feedback consolidado en Issue #1: https://github.com/Anmonte/vane_legui-blog/issues/1#issuecomment-3550063488. Nuevas Issues creadas (2025-11-18): Issue #2 guía PRs (https://github.com/Anmonte/vane_legui-blog/issues/2), Issue #3 Clase 4 finalización (https://github.com/Anmonte/vane_legui-blog/issues/3)",
     "prs": [
       {
         "numero": 4,
@@ -120,7 +134,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-18T18:10:51Z"
+    "ultima_actualizacion": "2025-11-19T01:15:00Z"
   },
   {
     "nombre": "Chamaheleonn",
@@ -207,7 +221,7 @@
     "url_repositorio": "https://github.com/Ezem700/EzeBlog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "Issue de feedback: https://github.com/Ezem700/EzeBlog/issues/1 (2025-11-18). Feedback en PRs: #22 https://github.com/IES9018/proyecto-modelado-2025/pull/22#issuecomment-3549992328 y #23 https://github.com/IES9018/proyecto-modelado-2025/pull/23#issuecomment-3549992072",
+    "feedback_general": "Issue de feedback: https://github.com/Ezem700/EzeBlog/issues/1 (2025-11-18). Feedback en PRs: #22 https://github.com/IES9018/proyecto-modelado-2025/pull/22#issuecomment-3549992328 y #23 https://github.com/IES9018/proyecto-modelado-2025/pull/23#issuecomment-3549992072. Issues Clase 4 en su fork: #3 https://github.com/Ezem700/EzeBlog/issues/3, #4 https://github.com/Ezem700/EzeBlog/issues/4, #5 https://github.com/Ezem700/EzeBlog/issues/5",
     "prs": [
       {
         "numero": 22,
@@ -263,7 +277,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-18T22:14:15Z"
+    "ultima_actualizacion": "2025-11-19T01:12:02Z"
   },
   {
     "nombre": "Jesica1487",
