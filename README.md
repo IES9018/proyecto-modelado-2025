@@ -47,5 +47,5 @@ Para clonar el proyecto y empezar a explorar el modelo de EzeBlog:
 # 1. Clona el repositorio
 git clone [https://github.com/Ezem700/proyecto-modelado-2025.git](https://github.com/Ezem700/proyecto-modelado-2025.git)
 
-# 2. Entra al directorio del proyecto (ajusta el nombre si lo renombraste)
+# 2. Entra al directorio del proyecto
 cd proyecto-modelado-2025
