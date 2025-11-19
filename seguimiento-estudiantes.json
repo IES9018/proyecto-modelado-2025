@@ -88,7 +88,7 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Actualizado al 2025-11-18: el PR incluye README, CHANGELOG y múltiples imágenes de diagramas generadas desde Mermaid (posibles contenidos de Clases 2/3). Se considera Clase 2 entregada a nivel de imágenes (PNG), pendiente: agregar archivos fuente (.drawio), normalizar nombres (kebab-case) y documentación .md por diagrama."
+          "observaciones": "Actualizado al 2025-11-18: el PR incluye README, CHANGELOG y múltiples imágenes de diagramas generadas desde Mermaid (posibles contenidos de Clases 2/3). Se considera Clase 2 entregada a nivel de imágenes (PNG). En su fork existen 'clase-3-principios-patrones-arquitecturas.md' y 'clase-4-fork-independiente.md'; falta abrir PRs correspondientes. Pendiente: agregar archivos fuente (.drawio), normalizar nombres (kebab-case) y documentación .md por diagrama."
         }
       },
       {
