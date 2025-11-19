@@ -57,25 +57,30 @@
   {
     "nombre": "Anmonte",
     "github_usuario": "Anmonte",
-    "url_repositorio": "https://github.com/Anmonte/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/Anmonte/vane_legui-blog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
     "prs": [
       {
         "numero": 4,
-        "titulo": "Descripcion del diagrama de caso de uso",
+        "titulo": "Sistema de categorías + versión independiente vane_legui-blog v1.1.0",
         "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/4",
         "estado": "OPEN",
         "creado_en": "2025-11-05T01:29:32Z",
         "mergeado_en": null,
         "archivos": [
-          {
-            "path": "clase-1-introduccion-uml.md",
-            "additions": 39,
-            "deletions": 1,
-            "binary": false
-          }
+          { "path": "CHANGELOG.md", "additions": 17, "deletions": 0 },
+          { "path": "README.md", "additions": 215, "deletions": 0 },
+          { "path": "clase-1-introduccion-uml.md", "additions": 39, "deletions": 1 },
+          { "path": "diagramadeflujo.md", "additions": 205, "deletions": 0 },
+          { "path": "image.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "mermaid-diagram-2025-11-11-155133.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "mermaid-diagram-2025-11-11-162438.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "mermaid-diagram-2025-11-11-165629.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "mermaid-diagram-2025-11-14-225533.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "mermaid-diagram-2025-11-14-232908.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "scripts/decode_pako.py", "additions": 0, "deletions": 0 }
         ],
         "comentarios_docente": [
           "https://github.com/IES9018/proyecto-modelado-2025/pull/4#issuecomment-3488770361",
@@ -83,7 +88,7 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Descripción clara. Sugerido estandarizar encabezados, flujo numerado, evitar cortes de palabra y agregar newline final."
+          "observaciones": "Actualizado al 2025-11-18: el PR incluye README, CHANGELOG y múltiples imágenes de diagramas generadas desde Mermaid (posibles contenidos de Clases 2/3). Se considera Clase 2 entregada a nivel de imágenes (PNG), pendiente: agregar archivos fuente (.drawio), normalizar nombres (kebab-case) y documentación .md por diagrama."
         }
       },
       {
@@ -114,7 +119,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-14T14:30:00Z"
+    "ultima_actualizacion": "2025-11-18T18:10:51Z"
   },
   {
     "nombre": "Chamaheleonn",
@@ -198,7 +203,7 @@
   {
     "nombre": "Ezequiel Molina",
     "github_usuario": "Ezem700",
-    "url_repositorio": "https://github.com/Ezem700/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/Ezem700/EzeBlog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
@@ -262,7 +267,7 @@
   {
     "nombre": "Jesica1487",
     "github_usuario": "Jesica1487",
-    "url_repositorio": "https://github.com/Jesica1487/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/Jesica1487/proyecto-modelado-jesi",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
@@ -299,7 +304,7 @@
   {
     "nombre": "KrellLeonardo",
     "github_usuario": "KrellLeonardo",
-    "url_repositorio": "https://github.com/KrellLeonardo/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/KrellLeonardo/proyecto-leonardo",
     "estado_proyecto": "Pendiente",
     "calificacion_final": null,
     "feedback_general": "",
@@ -485,7 +490,7 @@
   {
     "nombre": "Camila",
     "github_usuario": "Milasch23",
-    "url_repositorio": "https://github.com/Milasch23/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/Milasch23/camila-blog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
@@ -578,5 +583,15 @@
       }
     ],
     "ultima_actualizacion": "2025-11-18T23:03:07Z"
+  },
+  {
+    "nombre": "faustocartier-77",
+    "github_usuario": "faustocartier-77",
+    "url_repositorio": "https://github.com/faustocartier-77/proyecto-modelado-2025",
+    "estado_proyecto": "Pendiente",
+    "calificacion_final": null,
+    "feedback_general": "",
+    "prs": [],
+    "ultima_actualizacion": "2025-11-05T00:00:00Z"
   }
 ]

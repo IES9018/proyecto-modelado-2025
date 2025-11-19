@@ -1,9 +1,9 @@
 # 📊 Informe de Entregas por Estudiante - Clases 1 a 4
 
 **Fecha del informe:** 18 de noviembre de 2025  
-**Total de estudiantes:** 11 registrados  
+**Total de estudiantes:** 14 registrados  
 **Estudiantes activos:** 8  
-**Estudiantes sin actividad:** 3
+**Estudiantes sin actividad:** 5
 
 ---
 
@@ -243,6 +243,42 @@
 
 ---
 
+### 13. **KrellLeonardo**
+**Usuario:** @KrellLeonardo  
+**Repositorio:** https://github.com/KrellLeonardo/proyecto-leonardo  
+**PRs totales:** 0
+
+| Clase | Estado | Entregable | Observaciones |
+|-------|--------|-----------|---------------|
+| **Clase 1** | ❌ | - | **FALTA** |
+| **Clase 2** | ❌ | - | **FALTA** |
+| **Clase 3** | ❌ | - | **FALTA** |
+| **Clase 4** | ❌ | - | **FALTA** |
+
+**Última actividad:** Sin PRs  
+**Estado general:** 🔴 **Sin entregas**  
+**Pendiente:** Todas las clases
+
+---
+
+### 14. **faustocartier-77** (Fausto)
+**Usuario:** @faustocartier-77  
+**Repositorio:** https://github.com/faustocartier-77/proyecto-modelado-2025  
+**PRs totales:** 0
+
+| Clase | Estado | Entregable | Observaciones |
+|-------|--------|-----------|---------------|
+| **Clase 1** | ❌ | - | **FALTA** |
+| **Clase 2** | ❌ | - | **FALTA** |
+| **Clase 3** | ❌ | - | **FALTA** |
+| **Clase 4** | ❌ | - | **FALTA** |
+
+**Última actividad:** Sin PRs  
+**Estado general:** 🔴 **Sin entregas**  
+**Pendiente:** Todas las clases
+
+---
+
 ## 📊 RESUMEN ESTADÍSTICO
 
 ### Por Estado de Completitud
@@ -252,7 +288,7 @@
 | **Completos (4/4 clases)** | 2 | Ezequiel Molina, Camila Scheurer |
 | **Incompletos activos** | 4 | ClaudioMPerez (3/4), VazAlexx (3/4), Lautaro (2/4), Jesica (3/4) |
 | **Muy incompletos** | 2 | Agustinagnz (1/4), Anmonte (1/4) |
-| **Sin entregas** | 4 | AlejandroPardo98, AndyParada, Chamaheleonn, Damian-Coria |
+| **Sin entregas** | 6 | AlejandroPardo98, AndyParada, Chamaheleonn, Damian-Coria, KrellLeonardo, faustocartier-77 |
 
 ### Por Clase
 
