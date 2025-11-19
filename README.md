@@ -94,3 +94,6 @@ La evaluación principal de este curso se basa en la construcción de tu propio 
 
 *   **[Instrucciones de la Tarea](./tarea-proyecto-final.md):** Lee este documento cuidadosamente para saber qué tienes que hacer.
 *   **[Rúbrica de Evaluación](./rubrica-evaluacion.md):** Consulta este documento para entender cómo será evaluado tu trabajo.
+## 📊 Diagrama de Casos de Uso: Institución Digital
+
+![Diagrama de Casos de Uso](./casos_de_uso/casos-uso-institucion-digital-agustinagnz.png)
