@@ -196,14 +196,68 @@
     "ultima_actualizacion": "2025-11-05T00:00:00Z"
   },
   {
-    "nombre": "Eze",
+    "nombre": "Ezequiel Molina",
     "github_usuario": "Ezem700",
     "url_repositorio": "https://github.com/Ezem700/proyecto-modelado-2025",
-    "estado_proyecto": "Pendiente",
+    "estado_proyecto": "En curso",
     "calificacion_final": null,
     "feedback_general": "",
-    "prs": [],
-    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+    "prs": [
+      {
+        "numero": 22,
+        "titulo": "Entrega Fase 1 – Ezequiel Molina",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/22",
+        "estado": "OPEN",
+        "creado_en": "2025-11-18T18:29:34Z",
+        "actualizado_en": "2025-11-18T22:14:15Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": ".gitignore", "additions": 14, "deletions": 34 },
+          { "path": "CHANGELOG.md", "additions": 13, "deletions": 74 },
+          { "path": "Clase1/Diagrama-clase1.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase1/caso_de_uso_publicar_articulo.md", "additions": 17, "deletions": 0 },
+          { "path": "Clase2/Diagrama_de_clases.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase2/Diagrama_de_secuencia.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase2/DiagramadeActividadprocesoPublicarArtículo.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase2/diagrama-casos-uso-v2.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase3/clase3diagrama-mvc.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase3/diagrama-clases-refactor-v3.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "Clase4/diagramasclase-categoria.drawio.png", "additions": 0, "deletions": 0, "binary": true },
+          { "path": "LICENSE", "additions": 21, "deletions": 0 },
+          { "path": "README.md", "additions": 19, "deletions": 77 }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/22#issuecomment-3549992328"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Entrega completa Clases 1-4. Estructura profesional con carpetas organizadas, CHANGELOG, LICENSE MIT, .gitignore personalizado, README EzeBlog. Feature único: Sistema de Categorías. Requiere: archivos .drawio fuente, documentación .md en cada carpeta, renombrar a kebab-case, consolidar CHANGELOG. Calificación estimada: 9.0/10"
+        }
+      },
+      {
+        "numero": 23,
+        "titulo": "Feature/clase4",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/23",
+        "estado": "OPEN",
+        "creado_en": "2025-11-18T21:00:34Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": ".gitignore", "additions": 14, "deletions": 34 },
+          { "path": "CHANGELOG.md", "additions": 13, "deletions": 74 },
+          { "path": "Clase1/Diagrama-clase1.png", "additions": 0, "deletions": 0 },
+          { "path": "LICENSE", "additions": 21, "deletions": 0 },
+          { "path": "README.md", "additions": 19, "deletions": 77 }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/23#issuecomment-3549992072"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "PR duplicado del #22. Contenido similar pero menos completo (falta Clase4). Recomendado: consolidar en PR #22 y cerrar este. Aprendizaje: un PR por feature/entrega, evitar duplicados."
+        }
+      }
+    ],
+    "ultima_actualizacion": "2025-11-18T22:14:15Z"
   },
   {
     "nombre": "Jesica1487",
@@ -425,7 +479,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-07T23:58:00Z",
+    "ultima_actualizacion": "2025-11-18T23:19:15Z",
     "no_en_lista_estudiantes": true
   },
   {
@@ -485,8 +539,9 @@
         "numero": 17,
         "titulo": "Clases 2 y 3",
         "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/17",
-        "estado": "OPEN",
+        "estado": "CLOSED",
         "creado_en": "2025-11-14T14:00:00Z",
+        "cerrado_en": "2025-11-15T00:41:16Z",
         "mergeado_en": null,
         "archivos": [
           { "path": "clase2Diagramas.md", "additions": 88, "deletions": 0 },
@@ -497,10 +552,31 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Se agregaron diagramas en formato Mermaid y contenido de arquitectura en los archivos de la clase 2 y 3. El formato markdown está correcto y los diagramas son claros. Recuerda adjuntar también los archivos fuente (.drawio) de los diagramas para facilitar futuras ediciones y revisiones. Sugerido consolidar con PR #15."
+          "observaciones": "PR cerrado, contenido consolidado en PR #24."
+        }
+      },
+      {
+        "numero": 24,
+        "titulo": "Camila cambios clase4 readme",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/24",
+        "estado": "OPEN",
+        "creado_en": "2025-11-18T23:03:07Z",
+        "mergeado_en": null,
+        "archivos": [
+          { "path": "README.md", "additions": 9, "deletions": 85 },
+          { "path": "clase2Diagramas.md", "additions": 88, "deletions": 0 },
+          { "path": "clase3Actividad.md", "additions": 97, "deletions": 0 },
+          { "path": "clase4.md", "additions": 188, "deletions": 0 }
+        ],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/24#issuecomment-3549991994"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Entrega completa y profesional Clases 1-4. CamilaBlog con 6 features únicas: likes, categorías, etiquetas, borradores, estadísticas, gestión usuarios. Diagramas Mermaid excelentes (casos uso, clases, secuencia, actividad). Arquitectura MVC y patrón Facade bien documentados. README personalizado profesional. Requiere: archivos .drawio fuente, CHANGELOG.md, renombrar a kebab-case, organizar en carpetas, newline final. Calificación estimada: 9.5/10"
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-14T14:00:00Z"
+    "ultima_actualizacion": "2025-11-18T23:03:07Z"
   }
 ]
