@@ -24,7 +24,8 @@
           { "path": "diagramas/diagrama_flujos.png", "additions": 0, "deletions": 0, "binary": true }
         ],
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/8#issuecomment-3505328441"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/8#issuecomment-3505328441",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/8#issuecomment-3550105122"
         ],
         "evaluacion": {
           "nota": null,
@@ -32,7 +33,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-08T21:18:06Z"
+    "ultima_actualizacion": "2025-11-18T23:59:00Z"
   },
   {
     "nombre": "AlejandroPardo98",
@@ -297,9 +298,23 @@
           "nota": null,
           "observaciones": "Cambio correcto para PowerShell; revertido por política educativa. Además mergeó PR #2 de Camila sin autorización."
         }
+      },
+      {
+        "numero": 21,
+        "titulo": "Checklist de cierre Clase 4",
+        "url": "https://github.com/IES9018/proyecto-modelado-2025/pull/21",
+        "estado": "OPEN",
+        "archivos": [],
+        "comentarios_docente": [
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/21#issuecomment-3550105238"
+        ],
+        "evaluacion": {
+          "nota": null,
+          "observaciones": "Checklist publicado para completar Clase 4 y normalizaciones (.drawio, kebab-case, Conventional Commits, documentación)."
+        }
       }
     ],
-    "ultima_actualizacion": "2025-11-05T01:40:00Z"
+    "ultima_actualizacion": "2025-11-18T23:59:00Z"
   },
   {
     "nombre": "KrellLeonardo",
@@ -345,7 +360,8 @@
           }
         ],
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550105168"
         ],
         "evaluacion": {
           "nota": null,
@@ -404,7 +420,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-08T00:13:11Z"
+    "ultima_actualizacion": "2025-11-18T23:59:00Z"
   },
   {
     "nombre": "VazAlexx",
@@ -476,7 +492,8 @@
           }
         ],
         "comentarios_docente": [
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/13#issuecomment-3505439143"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/13#issuecomment-3505439143",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/13#issuecomment-3550105404"
         ],
         "evaluacion": {
           "nota": null,
@@ -484,7 +501,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-18T23:19:15Z",
+    "ultima_actualizacion": "2025-11-18T23:59:00Z",
     "no_en_lista_estudiantes": true
   },
   {
