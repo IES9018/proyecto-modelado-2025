@@ -302,7 +302,7 @@ flowchart LR
     Modelo --> Controlador
     Controlador --> Vista
 
-✅ DIAGRAMA 4: Diagrama de Secuencia Mejorado (con Facade)
+ DIAGRAMA 4: Diagrama de Secuencia Mejorado 
 
 Este diagrama muestra cómo fluye la acción al crear un comentario.
 
