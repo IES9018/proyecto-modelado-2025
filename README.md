@@ -41,5 +41,5 @@ Implementar un **Sistema de Etiquetas (Tags)** para un blog, que permita:
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/blog-claudio.git
+git clone https://github.com/ClaudioMPerez/blog-claudio.git
 
