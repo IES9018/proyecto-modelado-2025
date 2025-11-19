@@ -1,6 +1,6 @@
 # Changelog - LautaroBlog
 
-## [1.0.0] - 2025-11-07
+## [1.0.0] - 2025-11-18
 
 ### Agregado
 - Fork inicial de proyecto-modelado-2025
