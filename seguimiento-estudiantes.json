@@ -343,10 +343,10 @@
   {
     "nombre": "Lautaro Lopez",
     "github_usuario": "LL1121",
-    "url_repositorio": "https://github.com/LL1121/proyecto-modelado-2025",
+    "url_repositorio": "https://github.com/LL1121/LautaroBlog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "",
+    "feedback_general": "Fork renombrado a LautaroBlog. Issues de feedback completo creadas en fork: #1 https://github.com/LL1121/LautaroBlog/issues/1 (Clase 1), #4 https://github.com/LL1121/LautaroBlog/issues/4 (Clase 2), #5 https://github.com/LL1121/LautaroBlog/issues/5 (Clase 3), #6 https://github.com/LL1121/LautaroBlog/issues/6 (Clase 4). Último push: 2025-11-19 01:20Z con correcciones en diagramas y patrón MVC.",
     "prs": [
       {
         "numero": 9,
@@ -375,11 +375,15 @@
         ],
         "comentarios_docente": [
           "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167",
-          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550105168"
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550105168",
+          "https://github.com/LL1121/LautaroBlog/issues/1",
+          "https://github.com/LL1121/LautaroBlog/issues/4",
+          "https://github.com/LL1121/LautaroBlog/issues/5",
+          "https://github.com/LL1121/LautaroBlog/issues/6"
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Clase 1: Casos de uso con flujos alternativos detallados. Requiere: separar CU02 (leer vs opinar/calificar), renombrar archivos (kebab-case), agregar .drawio, organizar en carpetas, newline."
+          "observaciones": "Clase 1: Casos de uso con flujos alternativos detallados. Requiere: separar CU02 (leer vs opinar/calificar), renombrar archivos (kebab-case), agregar .drawio, organizar en carpetas, newline. Feedback completo en issues de su fork para completar Clases 1-4."
         }
       },
       {
@@ -434,7 +438,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-18T23:59:00Z"
+    "ultima_actualizacion": "2025-11-19T01:20:52Z"
   },
   {
     "nombre": "VazAlexx",
