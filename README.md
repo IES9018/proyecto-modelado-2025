@@ -21,7 +21,7 @@ Para tener una copia completa del proyecto en tu computadora, necesitarás clona
 
 ```bash
 # Clona el proyecto a tu máquina local
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/IES9018/proyecto-modelado-2025.git
 
 # Entra en la carpeta del proyecto
 cd tu-repositorio

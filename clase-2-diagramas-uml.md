@@ -122,7 +122,9 @@ classDiagram
 
     Usuario "1" -- "1..*" Articulo : escribe
     Articulo "1" -- "*" Comentario : tiene
-[mermaid.live](https://mermaid.live/) para visualizar el diagrama y experimentar con él.
+```
+
+> **Nota para el estudiante:** Puedes copiar el código anterior y pegarlo en [mermaid.live](https://mermaid.live/) para visualizar el diagrama y experimentar con él.
 
 **Paso 3: Modelar la Interacción con un Diagrama de Secuencia**
 
