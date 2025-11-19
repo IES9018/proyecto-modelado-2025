@@ -10,6 +10,53 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Clase 4: Versionado Semántico, Tags, CHANGELOG y Fork Workflow
+- Checklist de evaluación comprehensivo para Clases 1-4
+
+## [1.3.0] - 2025-01-30
+
+### Added
+- `clase-4-versionado-tags.md`: Tutorial completo sobre versionado semántico, Git tags, CHANGELOG.md y flujo fork→merge→PR
+- `checklist-evaluacion-clases.md`: Checklist de evaluación detallado con rúbrica para las 4 clases
+- Conceptos: Semantic Versioning (MAJOR.MINOR.PATCH), Tags anotados vs lightweight, Keep a Changelog format
+- Tutorial paso a paso: Sistema de categorías para el blog como nueva funcionalidad (v1.2.0)
+- Comandos Git avanzados: tags, remotes upstream, fetch, merge upstream
+- Flujo profesional: merge en fork personal antes de abrir PR al repo central
+- Explicación detallada de .gitignore con patrones comunes
+- Glosario de términos de versionado y releases
+
+### Changed
+- Actualización del CHANGELOG.md siguiendo el estándar Keep a Changelog
+
+## [1.2.0] - 2025-01-29
+
+### Added
+- GitHub Discussions habilitado como canal oficial de comunicación
+- Discussion #6: "Política del Repositorio: NO realizar merges por cuenta propia"
+- Discussion #7: "Retrospectiva semanal - Plantilla" para reflexión estudiantil
+- Configuración de merge strategy: squash-only, auto-delete branches
+- `seguimiento-estudiantes.json`: Sistema de tracking de estudiantes con campos de evaluación
+
+### Changed
+- Branch protection en main: require 1 approval, linear history, conversation resolution
+- Flujo de trabajo: los estudiantes deben esperar aprobación docente antes de merge
+
+### Fixed
+- Revertidos merges no autorizados de PR #2 y PR #3 como medida educativa
+- Formato markdown en `clase-2-diagramas-uml.md` (punto 4 - diagrama Mermaid)
+
+## [1.1.0] - 2025-01-28
+
+### Added
+- Revisiones educativas completas de PR #1 (VazAlexx), #2 (Milasch23), #3 (Jesica1487), #4 (Anmonte), #5 (ClaudioMPerez)
+- Feedback constructivo en cada PR con identificación de áreas de mejora
+
+### Changed
+- Enfoque pedagógico: de corrección directa a guía con feedback formativo
+
 ## [1.0.0] - 2025-10-31
 
 ### Added
