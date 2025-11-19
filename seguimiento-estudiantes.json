@@ -347,7 +347,7 @@
     "url_repositorio": "https://github.com/LL1121/LautaroBlog",
     "estado_proyecto": "En curso",
     "calificacion_final": null,
-    "feedback_general": "Fork renombrado a LautaroBlog. Issues de feedback completo creadas en fork: #1 https://github.com/LL1121/LautaroBlog/issues/1 (Clase 1), #4 https://github.com/LL1121/LautaroBlog/issues/4 (Clase 2), #5 https://github.com/LL1121/LautaroBlog/issues/5 (Clase 3), #6 https://github.com/LL1121/LautaroBlog/issues/6 (Clase 4). Último push: 2025-11-19 01:20Z con correcciones en diagramas y patrón MVC.",
+    "feedback_general": "Excelente progreso con identidad clara (LautaroBlog v1.0.0). 3 CU completos (incluyendo CU03 moderación único), 5 diagramas PNG, README/CHANGELOG/Roadmap personalizados, commits convencionales. Feedback detallado 2025-11-19: https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550364049. Pendientes críticos: archivos .drawio, organización carpetas, LICENSE, renombrar kebab-case. Issues fork: #1-6 abiertas.",
     "prs": [
       {
         "numero": 9,
@@ -368,15 +368,55 @@
             "deletions": 0
           },
           {
-            "path": "DiagramaUML.png",
+            "path": "CU03ModerarComentario.md",
+            "additions": 28,
+            "deletions": 0
+          },
+          {
+            "path": "DiagramaDeClases.png",
             "additions": 0,
             "deletions": 0,
             "binary": true
+          },
+          {
+            "path": "DiagramaDeSecuencia.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaDeActividad.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaDeFrecuencia.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "DiagramaMVC.png",
+            "additions": 0,
+            "deletions": 0,
+            "binary": true
+          },
+          {
+            "path": "CHANGELOG.md",
+            "additions": 8,
+            "deletions": 81
+          },
+          {
+            "path": "README.md",
+            "additions": 15,
+            "deletions": 87
           }
         ],
         "comentarios_docente": [
           "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3505339167",
           "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550105168",
+          "https://github.com/IES9018/proyecto-modelado-2025/pull/9#issuecomment-3550364049",
           "https://github.com/LL1121/LautaroBlog/issues/1",
           "https://github.com/LL1121/LautaroBlog/issues/4",
           "https://github.com/LL1121/LautaroBlog/issues/5",
@@ -384,7 +424,7 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Clase 1: Casos de uso con flujos alternativos detallados. Requiere: separar CU02 (leer vs opinar/calificar), renombrar archivos (kebab-case), agregar .drawio, organizar en carpetas, newline. Feedback completo en issues de su fork para completar Clases 1-4."
+          "observaciones": "PR #9 (2025-11-19): Progreso excelente - 3 CU detallados (CU03 moderación único), 5 diagramas PNG, README/CHANGELOG personalizados, commits convencionales. Estado: Clase 1 80%, Clase 2 60% (faltan .drawio), Clase 3 90%, Clase 4 95% (falta LICENSE). Pendiente: .drawio, carpetas (casos_de_uso/, diagramas/), kebab-case, LICENSE, newlines. Último commit: 2025-11-19 01:54:46Z."
         }
       },
       {
@@ -439,7 +479,7 @@
         }
       }
     ],
-    "ultima_actualizacion": "2025-11-19T01:20:52Z"
+    "ultima_actualizacion": "2025-11-19T02:10:00Z"
   },
   {
     "nombre": "VazAlexx",
