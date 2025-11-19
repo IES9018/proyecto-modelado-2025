@@ -322,9 +322,9 @@
     "url_repositorio": "https://github.com/KrellLeonardo/proyecto-leonardo",
     "estado_proyecto": "Pendiente",
     "calificacion_final": null,
-    "feedback_general": "",
+    "feedback_general": "Issue de feedback creado en fork: https://github.com/KrellLeonardo/proyecto-leonardo/issues/5 (2025-11-18). Orientación completa paso a paso para abrir PRs por cada clase y completar el proyecto.",
     "prs": [],
-    "ultima_actualizacion": "2025-11-05T00:00:00Z"
+    "ultima_actualizacion": "2025-11-18T23:59:00Z"
   },
   {
     "nombre": "Lautaro Lopez",
