@@ -192,3 +192,132 @@ Hoy hemos elevado nuestro diseño de "funciona" a "está bien hecho". Hemos apre
 4.  **Gestionamos todo el proceso** con un control de versiones profesional usando Git.
 
 Este conocimiento es la base fundamental sobre la que se construye cualquier proyecto de software de calidad. ¡Felicidades por completar este viaje!
+
+
+
+
+DIAGRAMA 1: Diagrama de Clases Refactorizado (Alta Cohesión + Bajo Acoplamiento)
+
+Cambios aplicados:
+
+Usuario ya NO gestiona login/logout → se crea ServicioAutenticacion.
+
+Controladores ya NO crean objetos concretos → eso lo maneja SistemaBlog (Patrón Facade).
+
+🔹 Mermaid – Diagrama de clases refactorizado
+classDiagram
+    class Usuario {
+        -id: int
+        -nombre: string
+        -email: string
+    }
+
+    class Articulo {
+        -id: int
+        -titulo: string
+        -contenido: string
+        +publicar()
+    }
+
+    class Comentario {
+        -id: int
+        -texto: string
+        -fecha: Date
+    }
+
+    class ServicioAutenticacion {
+        +login(email, password)
+        +logout(usuario)
+    }
+
+    class ArticuloController {
+        +crearArticulo(datos)
+        +verArticulo(id)
+    }
+
+    class ComentarioController {
+        +crearComentario(datos)
+        +listarComentarios(idArticulo)
+    }
+
+    class SistemaBlog {
+        +publicarArticulo(datos)
+        +dejarComentario(datos)
+    }
+
+    %% Relaciones
+    Usuario --> Comentario
+    Articulo --> Comentario : "1..*"
+    ArticuloController --> SistemaBlog
+    ComentarioController --> SistemaBlog
+    SistemaBlog --> Articulo
+    SistemaBlog --> Comentario
+    ServicioAutenticacion --> Usuario : "gestiona"
+
+✅ DIAGRAMA 2: Patrón Facade en acción
+🔹 Mermaid – Facade simplificado
+classDiagram
+    class SistemaBlog {
+        +publicarArticulo(datos)
+        +dejarComentario(datos)
+    }
+
+    class ArticuloController
+    class ComentarioController
+    class Articulo
+    class Comentario
+
+    ArticuloController --> SistemaBlog
+    ComentarioController --> SistemaBlog
+    SistemaBlog --> Articulo
+    SistemaBlog --> Comentario
+
+
+Este diagrama muestra cómo evitamos que los controladores creen directamente entidades → bajo acoplamiento.
+
+✅ DIAGRAMA 3: Arquitectura MVC (Paquetes)
+🔹 Mermaid – Diagrama conceptual MVC
+flowchart LR
+    subgraph Modelo
+        Usuario
+        Articulo
+        Comentario
+    end
+
+    subgraph Controlador
+        ArticuloController
+        ComentarioController
+        ServicioAutenticacion
+        SistemaBlog
+    end
+
+    subgraph Vista
+        FormularioArticulo
+        PaginaArticulo
+        ListaComentarios
+    end
+
+    Vista --> Controlador
+    Controlador --> Modelo
+    Modelo --> Controlador
+    Controlador --> Vista
+
+✅ DIAGRAMA 4: Diagrama de Secuencia Mejorado (con Facade)
+
+Este diagrama muestra cómo fluye la acción al crear un comentario.
+
+🔹 Mermaid – Diagrama de secuencia
+sequenceDiagram
+    participant V as Vista (Formulario comentario)
+    participant CC as ComentarioController
+    participant SB as SistemaBlog (Facade)
+    participant C as Comentario
+    participant A as Articulo
+
+    V->>CC: enviarComentario(datos)
+    CC->>SB: dejarComentario(datos)
+    SB->>A: obtenerArticulo(id)
+    SB->>C: crearComentario(texto)
+    C-->>SB: comentarioCreado
+    SB-->>CC: operación exitosa
+    CC-->>V: mostrarConfirmación()
