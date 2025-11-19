@@ -625,4 +625,6 @@ Hoy diste un gran paso: transformaste un fork colaborativo en **tu propio proyec
 
 **En la siguiente clase**, exploraremos patrones de diseño avanzados y arquitecturas escalables para llevar tu proyecto al siguiente nivel.
 
-**¡Tu versión, tus reglas, tu evolución!** 🚀
+**¡Tu versión, tus reglas, tu evolución!** 
+
+###haciendo pruebas para actualizar
