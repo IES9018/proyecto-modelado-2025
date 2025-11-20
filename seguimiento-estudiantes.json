@@ -101,7 +101,7 @@
         ],
         "evaluacion": {
           "nota": null,
-          "observaciones": "Agregar fuente .drawio, README breve en carpeta, renombrar archivos sin espacios y referenciar desde Markdown."
+          "observaciones": "Usar Mermaid para diagramas, README breve en carpeta, renombrar archivos sin espacios y referenciar desde Markdown."
         }
       }
     ],
