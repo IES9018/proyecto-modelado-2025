@@ -1,43 +1,24 @@
-# Operating System Files
+# Dependencias
+node_modules/
+
+# Build
+/dist
+/build
+
+# Sistema operativo
 .DS_Store
 Thumbs.db
 
-# IDE and Editor Files
-.vscode/
-*.suo
-*.user
-*.bak
-*~
-
-# Node.js
-node_modules/
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Python
-__pycache__/
-*.pyc
-.venv/
-venv/
-
-# Java
-*.class
-.classpath
-.project
-.settings/
-bin/
-
-# Maven
-target/
-
-# Gradle
-.gradle/
-build/
-
 # Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Temporary files
+# Editor / IDE
+.vscode/
+.idea/
+
+# Archivos temporales
 *.tmp
-*.temp
+*.swp
