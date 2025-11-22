@@ -240,3 +240,24 @@ Imagina que queremos añadir una nueva funcionalidad (como los comentarios), per
 Hoy hemos dado un gran paso. Pasamos del QUÉ al CÓMO, diseñando la estructura interna de nuestro sistema. Hemos aprendido a modelar no solo las piezas (`Clases`), sino también cómo interactúan (`Secuencia`) y los procesos que siguen (`Actividad`).
 
 En la **Clase 3**, nos pondremos el sombrero de "arquitecto senior". Revisaremos nuestro diseño y aprenderemos a mejorarlo aplicando **principios de diseño, patrones y arquitecturas** para que nuestro software no solo funcione, sino que sea robusto, mantenible y profesional.
+
+---
+### 💬 Aporte personal (Alex Vazquez)
+En este modelo agregué una clase "Administrador" que puede gestionar usuarios.
+También practiqué con Mermaid el siguiente diagrama
+
+```mermaid
+classDiagram
+    class Administrador {
+        +String nombre
+        +String email
+        +gestionarUsuarios()
+    }
+
+    class Usuario {
+        +String nombre
+        +String contraseña
+        +iniciarSesion()
+    }
+
+    Administrador "1" --> "*" Usuario : gestiona
