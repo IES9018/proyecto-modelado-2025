@@ -192,3 +192,155 @@ Hoy hemos elevado nuestro diseño de "funciona" a "está bien hecho". Hemos apre
 4.  **Gestionamos todo el proceso** con un control de versiones profesional usando Git.
 
 Este conocimiento es la base fundamental sobre la que se construye cualquier proyecto de software de calidad. ¡Felicidades por completar este viaje!
+
+---
+
+## 8. Cambios pedidos en las Issues:
+
+1. Identificar y documentar patrones de diseno usados (Singleton, Factory, Facade, etc.)
+2. Crear diagrama de arquitectura MVC de blog-claudio
+3. Documentar flujo de operaciones en MVC
+
+# Patrones de Diseño Utilizados
+
+## 1. MVC — Model-View-Controller
+Separación en Modelo, Vista y Controlador. Mantiene el sistema modular y escalable.
+
+## 2. Singleton — Controladores con instancia única
+Evita múltiples instancias de controladores y asegura un punto centralizado de acceso.
+
+## 3. Factory Method — Creación de entidades
+Estandariza la creación de objetos como Articulo, Comentario o Etiqueta, permitiendo validaciones previas.
+
+## 4. Observer — Notificaciones Modelo → Vista
+Permite que las vistas se actualicen automáticamente cuando un modelo cambia.
+
+## 5. DAO / Repository — Capa de persistencia
+Aísla la lógica de acceso a datos, permitiendo cambiar de motor sin afectar el resto del sistema.
+
+## 6. Facade — Controladores como fachada
+Agrupan y simplifican interacciones complejas entre diferentes modelos.
+
+## 7. Strategy — Filtrado y ordenamiento flexible
+Permite cambiar dinámicamente la estrategia usada para ordenar o filtrar artículos.
+
+# MVC — Model-View-Controller
+
+![Diagrama](diagramas/diagrama_mvc.png)
+
+# 🔄 Flujo de Operaciones en MVC
+
+A continuación se describe el flujo típico cuando un usuario interactúa con el sistema.
+
+## 1. El Usuario realiza una acción en la Vista
+
+## Ejemplos:
+
+Hace clic en “Publicar Artículo”
+
+Escribe un comentario y presiona “Enviar”
+
+Selecciona o crea una Etiqueta
+
+👉 La Vista captura la interacción (formulario, botón, evento JS, etc.)
+
+## 2. La Vista envía la acción al Controlador
+
+La Vista no procesa lógica, solo transmite la intención del usuario.
+
+## Ejemplo:
+
+FormularioArticulo envía los datos al ArticuloController
+
+ListaComentarios envía un nuevo comentario a ComentarioController
+
+## 3. El Controlador interpreta la acción
+
+El Controlador determina qué operación corresponde.
+
+## Ejemplo:
+
+Validar datos del formulario
+
+Crear un nuevo Artículo
+
+Agregar un Comentario
+
+Vincular Etiquetas
+
+Solicitar datos al Modelo
+
+El Controlador es la capa que orquesta.
+
+## 4. El Controlador interactúa con el Modelo
+
+Aquí ocurre la lógica de negocio.
+
+## Ejemplos:
+
+Articulo guarda un nuevo registro.
+
+Comentario valida el contenido.
+
+Etiqueta se asocia a un artículo.
+
+Usuario verifica permisos.
+
+La capa Modelo es la única que toca la base de datos.
+
+## 5. El Modelo actualiza datos y notifica cambios
+
+Cuando el modelo cambia, puede:
+
+Actualizar la BD
+
+Crear objetos nuevos
+
+Ejecutar reglas de negocio
+
+Y dependiendo de la arquitectura también puede:
+
+✔ Notificar a la Vista (patrón Observer)
+✔ Devolver datos actualizados al Controlador
+
+## 6. El Controlador recibe el resultado del Modelo
+
+El Controlador toma la información del Modelo y prepara:
+
+Datos para mostrar
+
+Errores de validación
+
+Confirmaciones
+
+No renderiza nada: solo transforma datos.
+
+## 7. El Controlador actualiza la Vista
+
+El Controlador envía:
+
+Objetos para renderizar
+
+Mensajes
+
+Estados (éxito/error)
+
+## Por ejemplo:
+
+“Artículo publicado correctamente”
+
+Mostrar el artículo recién creado
+
+Listar comentarios actualizados
+
+## 8. La Vista renderiza datos y muestra la actualización al usuario
+
+Esto puede ser:
+
+Una nueva página HTML
+
+Una actualización dinámica (AJAX / SPA)
+
+Un mensaje dentro del mismo formulario
+
+El usuario ve el resultado final.
