@@ -1,40 +1,36 @@
-# Changelog - MariaBlog
+# Changelog
+Todos los cambios importantes de este proyecto serán documentados en este archivo.
 
-## [1.0.0] - 2025-11-07
-
-### Agregado
-- Fork inicial de proyecto-modelado-2025
-- Establecida identidad de MariaBlog
-- Documentación inicial en README
-- Sistema base: CRUD artículos + comentarios
-
-[1.0.0]: https://github.com/ClaudioMPerez/blog-claudio/releases/tag/v1.0.0
-
-# Changelog - blog-claudio
-
-## [1.1.0] - 2025-11-18
-
-### Agregado
-- Sistema de Etiquetas (Tags)
-- Relación muchos a muchos entre Artículos y Etiquetas
-- Funciones para crear, editar y eliminar etiquetas
-- Opción para asignar y quitar etiquetas al editar artículos
-- Actualización de diagramas para incluir Etiquetas
-- Caso de Uso: Gestionar Etiquetas
-
-### Modificado
-- Se reemplazó el sistema de categorías por sistema de etiquetas
-- Correcciones en documentación y diagramas UML
+El formato sigue las especificaciones de **Keep a Changelog**  
+y el versionado sigue **Semantic Versioning**.
 
 ---
 
-## [1.0.0] - 2025-11-07
+## [v1.1.0] - 2025-02-25
+### Added
+- Diagrama de Clases (Usuario, Articulo, Comentario, Etiqueta).
+- Diagramas de Secuencia (Publicar Artículo, Agregar Comentario).
+- Diagrama de Actividad.
+- Documentación de patrones de diseño.
+- Archivo `arreglo de issues.md`.
+- Documentación extendida en `/docs`.
 
-### Agregado
-- Fork inicial de proyecto-modelado-2025
-- Identidad inicial de blog-claudio
-- Documentación inicial en README
-- Sistema base: CRUD artículos + comentarios
+### Changed  
+- Mejora del README.md como landing page profesional.
+- Refactor en documentación de casos de uso.
+
+### Fixed
+- Correcciones menores en rutas de imágenes.
+
+---
+
+## [v1.0.0] - 2025-02-24
+### Added
+- Estructura inicial del proyecto.
+- Sistema básico de artículos.
+- Sistema básico de comentarios.
+- Primer README.md.
+
 
 [1.1.0]: https://github.com/ClaudioMPerez/blog-claudio/releases/tag/v1.1.0
 [1.0.0]: https://github.com/ClaudioMPerez/blog-claudio/releases/tag/v1.0.0

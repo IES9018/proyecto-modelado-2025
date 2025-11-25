@@ -1,40 +1,73 @@
-# blog-claudio — Sistema de Etiquetas v1.0.0
+## 🚀 Blog Claudio — Proyecto MVC Documentado
 
-Un módulo simple y eficiente para gestionar **etiquetas** dentro de un blog.  
-Permite organizar mejor las publicaciones, filtrarlas rápidamente y mantener una estructura clara de contenido.
+- Bienvenido al repositorio del Blog MVC de Claudio, un proyecto educativo orientado a aprender:
 
-## 🎯 Objetivo del Proyecto
+- Arquitectura MVC
 
-Implementar un **Sistema de Etiquetas (Tags)** para un blog, que permita:
+- Diagramas UML
 
-- Crear etiquetas personalizadas
-- Asignarlas a posts existentes
-- Filtrar publicaciones por etiqueta
-- Mantener un historial de etiquetas utilizadas
-- Facilitar la navegación y clasificación del contenido
+- Patrones de diseño
 
----
+- Control de versiones profesional
 
-## ✨ Características Principales
+- Documentación técnica y releases
 
-- ✔️ Crear, editar y eliminar etiquetas  
-- ✔️ Asociar múltiples etiquetas a una misma entrada  
-- ✔️ Vista de posts filtrados por etiqueta  
-- ✔️ Interfaz limpia y fácil de usar  
-- ✔️ Estructura adaptable para integrarse a cualquier blog  
-- ✔️ Compatible con bases de datos SQL / SQLite  
+## 📚 Características del Proyecto
 
----
+- Gestión de Artículos
 
-## 🏗️ Tecnologías Utilizadas
+- Gestión de Comentarios
 
-- **Python / Django**
-- **HTML + CSS**
-- **SQLite** (o la base que uses)
-- **Bootstrap / Tailwind** (si aplica)
-- **Git + GitHub**
+- Módulo de Etiquetas
 
----
+- Controladores estructurados
+
+- Patrones de diseño (MVC, Observer, Factory, etc.)
+
+- Diagramas UML completos
+
+## 🧩 Arquitectura
+
+- Modelo: Usuario, Articulo, Comentario, Etiqueta
+
+- Controladores: ArticuloController, ComentarioController, EtiquetaController
+
+- Vistas: Formularios, listas y páginas de artículos
+
+## 🛠️ Tecnologías
+
+- Git / GitHub
+
+- Markdown + Documentación UML
+
+- Mermaid.js
+
+- GitHub Releases
+
+- Visual Studio Code
+
+## 📈 Roadmap
+
+ Documentación de casos de uso
+
+ Diagramas de clase, actividad y secuencia
+
+ Documentación de patrones de diseño
+
+ Tagging y releases
+
+ Implementación del código backend
+
+ UI real del blog
+
+ Base de datos real (SQLite o PostgreSQL)
+
+## 📦 Releases
+
+Versión	Descripción
+
+- v1.0.0	Versión inicial del proyecto
+- v1.1.0	Documentación UML completa + patrones de diseño
 
 ## 🚀 Instalación y Uso
 
