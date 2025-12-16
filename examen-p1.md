@@ -72,6 +72,3 @@ Ubicación: Actores / Postcondiciones
 Se menciona el envío de emails/notificaciones sin definir un actor externo responsable.
 
 Actor Secundario: Sistema de Notificaciones
-
-
-
