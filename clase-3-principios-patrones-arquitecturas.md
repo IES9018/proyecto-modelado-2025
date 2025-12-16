@@ -192,3 +192,18 @@ Hoy hemos elevado nuestro diseño de "funciona" a "está bien hecho". Hemos apre
 4.  **Gestionamos todo el proceso** con un control de versiones profesional usando Git.
 
 Este conocimiento es la base fundamental sobre la que se construye cualquier proyecto de software de calidad. ¡Felicidades por completar este viaje!
+
+### Aporte de Alex
+
+Se añadió un diagrama visual del patrón MVC basado en el ejemplo de la clase.
+
+![Diagrama MVC](./img-diagrama-clase3/diagrama-mvc.png)
+
+
+**Componentes mostrados en el diagrama:**
+
+🔹 **Modelo** → Contiene la lógica y datos del sistema: `Usuario`, `Articulo`, `Comentario`.  
+🔹 **Vista** → Interfaz que interactúa con el usuario: muestra artículos, formularios y comentarios.  
+🔹 **Controlador** → Recibe acciones del usuario, coordina qué modelo usar y qué vista mostrar.
+
+📌 Este diagrama complementa la explicación teórica y permite visualizar cómo interactúan los componentes en un sistema basado en arquitectura MVC.
