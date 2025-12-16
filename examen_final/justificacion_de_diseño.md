@@ -1,0 +1,6 @@
+1. Nombres: "MeGusta" (clase/entidad) y "MeGustaController" dejan clara la responsabilidad de gestionar likes; métodos como toggle() hacen explícito el comportamiento atómico.
+2. Responsabilidades: El controller orquesta (autenticación, existencia, crear/eliminar), la entidad MeGusta almacena metadata (fecha, activo) y Articulo expone contarMeGustas().
+3. Relaciones: Modelar MeGusta como entidad intermedia permite historial (timestamp), deshacer (activo=false) y métricas por usuario/artículo (many-to-many).
+4. Manejo de errores/estados: Validar autenticación antes de operar; operaciones idempotentes (buscar antes de crear/eliminar); usar transacciones/locks para evitar race conditions al actualizar contador.
+5. UX y API: Respuesta inmediata con estado {liked, total} para actualización UI; en caso de fallo, revertir UI y mostrar mensaje de error.
+6. Escalabilidad: Contadores agregados (cached) en Articulo para lecturas rápidas; eventos/asíncrono para reconciliación si hay alta concurrencia.
