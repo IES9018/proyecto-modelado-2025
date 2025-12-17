@@ -1,106 +1,85 @@
+## Actor principal
 ERROR #1
 
 Ubicación: Actor Principal
 
 Descripción:
-Se incluye al Sistema como actor principal. Un actor debe ser una entidad externa al sistema; el sistema no puede interactuar consigo mismo.
+El actor “Sistema” está definido como actor principal, lo cual es incorrecto porque los actores deben ser entidades externas al sistema y no el sistema en sí mismo. 
 
 Corrección:
-Eliminar “Sistema” de los actores.
-Actor Principal correcto: Administrador.
+Eliminar al “Sistema” como actor. El único actor principal debería ser Administrador
 
+## DESCRIPCION
 ERROR #2
 
-Ubicación: Actores
+Ubicación: Descripción
 
-Descripción:
-No se especifican actores secundarios, a pesar de que el sistema envía correos/notificaciones al autor del artículo.
+Descripción: El actor definido es el Administrador, la descripcion es incorrecta ya que se menciona que el usuario lo solicita. La descripcion no es precisa 
 
-Corrección:
-Agregar actor secundario:
+Corrección: “El sistema permite al Administrador eliminar artículos del blog.”
 
-Sistema de Notificaciones o Servicio de Email.
-
+## Precondiciones
 ERROR #3
 
 Ubicación: Precondiciones
 
 Descripción:
-La precondición “El artículo debe tener más de 100 comentarios” no es una condición necesaria para ejecutar el caso de uso. Es una regla arbitraria sin justificación funcional.
+La precondición “El artículo debe tener más de 100 comentarios” es irrelevante no es una condicion que se ponga en la descripcion
+No es condicion para eliminar el articulo del sistema
 
 Corrección:
-Reemplazar por:
+Se elimina esa precondicion y se deja solo:
+El Administrador está autenticado
+El artículo existe
 
-El usuario está autenticado como Administrador
-
-El artículo existe en el sistema
+## Flujo Principal
 
 ERROR #4
 
 Ubicación: Flujo Principal – Paso 5
 
 Descripción:
-El artículo se elimina de forma inmediata, sin solicitar confirmación al usuario. En operaciones destructivas debe existir confirmación.
+El sistema elimina el artículo inmediatamente sin solicitar confirmación previa, lo cual no es correcto para una acción destructiva, lo cual es necesario corregir para evitar problemas en el flujo.
 
 Corrección:
-Agregar:
-5. El sistema solicita confirmación de eliminación
-6. El Administrador confirma
-7. El sistema elimina el artículo
+Agregar un paso de confirmación en el flujo principal antes de eliminar el artículo. Mensaje de confirmacion "Esta seguro de eliminar el Articulo"
 
+## Flujo alternativo
 ERROR #5
 
 Ubicación: Flujos Alternativos
 
 Descripción:
-Se indica “Ninguno”, pero existen flujos alternativos evidentes, como cuando el Administrador cancela la operación.
+Podría existir un flujo alternativo si el Administrador decide cancelar la eliminación. 
 
 Corrección:
-Agregar:
+Agregar un flujo alternativo:
+·El sistema valida los permisos del usuario.
+·El Administrador cancela la eliminación → el sistema no elimina el artículo y finaliza el caso de uso.
 
-FA1: Cancelar eliminación
-
-Si el Administrador cancela, el sistema no elimina el artículo
-
-El sistema muestra mensaje “Operación cancelada”
-
-Retorna a la lista de artículos
-
+## Precondiciones
 ERROR #6
 
 Ubicación: Postcondiciones
 
 Descripción:
-Algunas postcondiciones no representan estados finales del sistema, sino acciones del proceso:
-
-“El sistema envía un email al autor”
-
-“El Administrador recibe una notificación”
+Las postcondiciones incluyen acciones como “el sistema envía un email” y “el Administrador recibe una notificación”, las cuales no representan estados finales del sistema sino comportamientos.
+El sistema envía un email al autor: se puede mover esta acción al flujo principal o a un flujo alternativo. Describe una accion 
 
 Corrección:
-Dejar solo postcondiciones que describan el estado final:
+Dejar en las postcondiciones solo estados verificables, como:
 
-El artículo ya no existe en la base de datos
-
+El artículo fue eliminado
 Los comentarios asociados fueron eliminados
 
+## Excepciones
 ERROR #7
 
 Ubicación: Excepciones
 
 Descripción:
-La excepción “Si el artículo no existe” es redundante, ya que en las precondiciones se establece que el artículo debe existir. Si la precondición no se cumple, el caso de uso no debería ejecutarse.
+La excepción “Si el artículo no existe” contradice la precondición que indica que el artículo debe existir y además debería tratarse como un flujo alternativo.
 
 Corrección:
-Eliminar la excepción o moverla a un flujo alternativo:
 
-FA2: Artículo no encontrado
-
-El sistema informa que el artículo no existe
-
-Retorna a la lista de artículos
-
----
-
-Nota: Las correcciones anteriores se han añadido tal como se solicitó para incluirlas en el examen.
-
+Una excepcion podria ser que ocurre un error inesperado del sistema durante la eliminación del artículo.
