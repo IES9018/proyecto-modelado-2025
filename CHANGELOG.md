@@ -16,6 +16,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Clase 4: Versionado Semántico, Tags, CHANGELOG y Fork Workflow
 - Checklist de evaluación comprehensivo para Clases 1-4
 
+## [1.4.0] - 2025-12-16
+
+### Added
+- `examenparte1.md` — Correcciones del caso de uso y ajustes en la descripción, precondiciones, flujos y excepciones.
+- `ExamenParte2.md` — Segunda parte del examen: diagramas y descripciones de clases.
+- `DIAGRAMAS/DIAGRAMA DE CLASES.PNG` — Diagrama de clases asociado a la entrega.
+- `DIAGRAMAS/DIAGRAMA DE SECUENCIA.PNG` — Diagrama de secuencia asociado a la entrega.
+- `README.md` — Se agregó sección con checklist y criterios para entregas de examen.
+
+### Removed
+- `DIAGRAMAS/DIAGRAMA 1.jpg` (eliminado por reemplazo/optimización).
+
+
 ## [1.3.0] - 2025-01-30
 
 ### Added

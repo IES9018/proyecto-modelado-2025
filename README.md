@@ -94,3 +94,42 @@ La evaluación principal de este curso se basa en la construcción de tu propio 
 
 *   **[Instrucciones de la Tarea](./tarea-proyecto-final.md):** Lee este documento cuidadosamente para saber qué tienes que hacer.
 *   **[Rúbrica de Evaluación](./rubrica-evaluacion.md):** Consulta este documento para entender cómo será evaluado tu trabajo.
+
+
+---
+
+## Notas específicas para las entregas del examen
+
+Sección de referencia para las entregas del examen final y archivos incluidos en este repositorio.
+
+- `examenparte1.md`: Contiene la revisión del caso de uso, listado de errores identificados y las correcciones propuestas (actores, precondiciones, postcondiciones, flujos y excepciones).
+- `ExamenParte2.md`: Contiene la segunda parte del examen con diagramas y descripciones de clases y secuencias.
+- `DIAGRAMAS/`: Carpeta con imágenes de apoyo para los diagramas (clases, secuencia, etc.).
+
+Qué incluir en tus entregas (checklist):
+
+- Título y objetivo del caso de uso.
+- Actores (entidades externas; NUNCA el "Sistema").
+- Precondiciones válidas y verificables.
+- Flujo principal claro y numerado con pasos.
+- Flujos alternativos y excepciones tratadas por separado.
+- Postcondiciones que describan estados verificables del sistema.
+- Si aplican, adjuntar diagramas (clases, secuencia) en `DIAGRAMAS/`.
+
+Buenas prácticas de commits y entregas
+
+- Mensajes claros en mayúsculas para títulos de entrega (ej.: "SEGUNDA PARTE DEL EXAMEN FINAL: DIAGRAMAS Y CLASES DE USO").
+- Realizar un PR hacia `main` desde tu rama `exam/<nombre>` y describir los cambios en el cuerpo del PR.
+- No subir archivos grandes innecesarios: las imágenes deben optimizarse.
+
+Contacto y soporte
+
+Si tenés dudas sobre el formato de entrega o el contenido, abrí un issue en GitHub indicando:
+
+- Título claro del issue.
+- Archivo(s) afectados (`examenparte1.md`, `ExamenParte2.md`, etc.).
+- Captura o explicación breve del problema.
+
+---
+
+Esto completa el README con las instrucciones y criterios específicos para las entregas del examen.
